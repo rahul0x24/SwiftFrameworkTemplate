@@ -1,9 +1,9 @@
 {
 	"name" : "Framework",
-	"summary" : "Framework is cookiecutter bootstrap template",
+	"summary" : "cookiecutter bootstrap template for swift framework",
   "full_name": "Rahul Katariya",
   "email": "rahulkatariya@me.com",
-	"organization_name" : "Apple",
+	"organization_name" : "cookiecutter-swift",
 	"homepage" : "http://rahulkatariya.me",
 	"version": "0.0.1",
 	"license": "MIT",
