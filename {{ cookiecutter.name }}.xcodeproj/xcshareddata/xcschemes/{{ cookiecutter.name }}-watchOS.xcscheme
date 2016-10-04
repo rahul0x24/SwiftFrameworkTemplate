@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3549BB2D1DA389DB00C63030"
-               BuildableName = "Library.framework"
-               BlueprintName = "Library-watchOS"
-               ReferencedContainer = "container:Library.xcodeproj">
+               BuildableName = "{{ cookiecutter.name }}.framework"
+               BlueprintName = "{{ cookiecutter.name }}-watchOS"
+               ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3549BB2D1DA389DB00C63030"
-            BuildableName = "Library.framework"
-            BlueprintName = "Library-watchOS"
-            ReferencedContainer = "container:Library.xcodeproj">
+            BuildableName = "{{ cookiecutter.name }}.framework"
+            BlueprintName = "{{ cookiecutter.name }}-watchOS"
+            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3549BB2D1DA389DB00C63030"
-            BuildableName = "Library.framework"
-            BlueprintName = "Library-watchOS"
-            ReferencedContainer = "container:Library.xcodeproj">
+            BuildableName = "{{ cookiecutter.name }}.framework"
+            BlueprintName = "{{ cookiecutter.name }}-watchOS"
+            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

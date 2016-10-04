@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3549BB201DA389CD00C63030"
-               BuildableName = "Library.framework"
-               BlueprintName = "Library-iOS"
-               ReferencedContainer = "container:Library.xcodeproj">
+               BlueprintIdentifier = "3549BB3A1DA389E800C63030"
+               BuildableName = "{{ cookiecutter.name }}.framework"
+               BlueprintName = "{{ cookiecutter.name }}-macOS"
+               ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3549BB201DA389CD00C63030"
-            BuildableName = "Library.framework"
-            BlueprintName = "Library-iOS"
-            ReferencedContainer = "container:Library.xcodeproj">
+            BlueprintIdentifier = "3549BB3A1DA389E800C63030"
+            BuildableName = "{{ cookiecutter.name }}.framework"
+            BlueprintName = "{{ cookiecutter.name }}-macOS"
+            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3549BB201DA389CD00C63030"
-            BuildableName = "Library.framework"
-            BlueprintName = "Library-iOS"
-            ReferencedContainer = "container:Library.xcodeproj">
+            BlueprintIdentifier = "3549BB3A1DA389E800C63030"
+            BuildableName = "{{ cookiecutter.name }}.framework"
+            BlueprintName = "{{ cookiecutter.name }}-macOS"
+            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

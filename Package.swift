@@ -9,7 +9,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Library",
+    name: "{{ cookiecutter.name }}",
     dependencies: [],
     exclude: ["Tests"]
 )
