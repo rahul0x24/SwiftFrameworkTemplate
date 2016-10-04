@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
  s.license = { :type => "{{ cookiecutter.license }}", :file => "LICENSE" }
  s.summary = '{{ cookiecutter.summary }}'
  s.homepage = '{{ cookiecutter.homepage }}'
- s.social_media_url = 'https://twitter.com/{{ cookiecutter.twiiter }}'
+ s.social_media_url = 'https://twitter.com/{{ cookiecutter.twitter }}'
  s.authors = { "{{ cookiecutter.full_name }}" => "{{ cookiecutter.email }}" }
  s.source = { :git => "https://github.com/Restofire/Restofire.git", :tag => "v"+s.version.to_s }
  s.platforms     = { :ios => "9.0", :osx => "10.11", :tvos => "9.0", :watchos => "2.0" }
