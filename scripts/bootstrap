@@ -1,0 +1,1 @@
+carthage update Nimble Quick --no-use-binaries
