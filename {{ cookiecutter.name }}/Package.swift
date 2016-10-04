@@ -2,7 +2,7 @@
 //  Restofire.swift
 //  Restofire
 //
-//  Created by Rahul Katariya on 23/10/15.
+//  Created by {{ cookiecutter.full_name }} on 23/10/15.
 //  Copyright © 2016 RahulKatariya. All rights reserved.
 //
 

@@ -1,3 +1,11 @@
 {
-	"name" : "Framework"
+	"name" : "Framework",
+	"summary" : "Framework is cookiecutter bootstrap template",
+  "full_name": "Rahul Katariya",
+  "email": "rahulkatariya@me.com",
+	"organization_name" : "Apple",
+	"homepage" : "http://rahulkatariya.me",
+	"version": "0.0.1",
+	"license": "MIT",
+	"twitter": "rahulkatariya91"
 }

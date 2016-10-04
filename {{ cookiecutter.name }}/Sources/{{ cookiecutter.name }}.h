@@ -2,8 +2,8 @@
 //  {{ cookiecutter.name }}.h
 //  {{ cookiecutter.name }}
 //
-//  Created by Rahul Katariya on 04/10/16.
-//  Copyright © 2016 Rahul Katariya. All rights reserved.
+//  Created by {{ cookiecutter.full_name }} on 04/10/16.
+//  Copyright © 2016 {{ cookiecutter.full_name }}. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
