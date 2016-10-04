@@ -13,7 +13,13 @@ import Nimble
 class {{ cookiecutter.name }}Spec: QuickSpec {
 
     override func spec() {
-    
+
+        describe("{{ cookiecutter.name }}Spec") {
+            it("works") {
+                expect("{{ cookiecutter.name }}") == "{{ cookiecutter.name }}"
+            }
+        }
+
     }
 
 }
