@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
  s.name = '{{ cookiecutter.name }}'
  s.version = '0.0.1'
  s.license = { :type => "MIT", :file => "LICENSE" }
- s.summary = '{{ cookiecutter.description }}'
+ s.summary = ''
  s.homepage = ''
  s.social_media_url = 'https://twitter.com/rahulkatariya91'
  s.authors = { "Rahul Katariya" => "rahulkatariya@me.com" }
