@@ -20,6 +20,12 @@
 		3549BB8B1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */; };
 		3549BB8C1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */; };
 		3549BB8D1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */; };
+		355AA0A81DA5498F004C69BF /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357D95571DA3F32600AEC55F /* Nimble.framework */; };
+		355AA0A91DA5498F004C69BF /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357D95581DA3F32600AEC55F /* Quick.framework */; };
+		355AA0AA1DA5499C004C69BF /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357D954D1DA3F2E000AEC55F /* Nimble.framework */; };
+		355AA0AB1DA5499C004C69BF /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357D954E1DA3F2E000AEC55F /* Quick.framework */; };
+		355AA0AC1DA549A8004C69BF /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357D95471DA3F2AB00AEC55F /* Nimble.framework */; };
+		355AA0AD1DA549A8004C69BF /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357D95481DA3F2AB00AEC55F /* Quick.framework */; };
 		357D95491DA3F2AB00AEC55F /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 357D95471DA3F2AB00AEC55F /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		357D954A1DA3F2AB00AEC55F /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 357D95481DA3F2AB00AEC55F /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		357D954F1DA3F2E000AEC55F /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 357D954D1DA3F2E000AEC55F /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -57,7 +63,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 10;
 			files = (
 				357D95491DA3F2AB00AEC55F /* Nimble.framework in Embed Frameworks */,
 				357D954A1DA3F2AB00AEC55F /* Quick.framework in Embed Frameworks */,
@@ -69,7 +75,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 10;
 			files = (
 				357D954F1DA3F2E000AEC55F /* Nimble.framework in Embed Frameworks */,
 				357D95501DA3F2E000AEC55F /* Quick.framework in Embed Frameworks */,
@@ -81,7 +87,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 10;
 			files = (
 				357D95591DA3F32600AEC55F /* Nimble.framework in Embed Frameworks */,
 				357D955A1DA3F32600AEC55F /* Quick.framework in Embed Frameworks */,
@@ -146,6 +152,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355AA0AC1DA549A8004C69BF /* Nimble.framework in Frameworks */,
+				355AA0AD1DA549A8004C69BF /* Quick.framework in Frameworks */,
 				3549BB661DA38ADB00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +162,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355AA0AA1DA5499C004C69BF /* Nimble.framework in Frameworks */,
+				355AA0AB1DA5499C004C69BF /* Quick.framework in Frameworks */,
 				3549BB751DA38AEF00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +172,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355AA0A81DA5498F004C69BF /* Nimble.framework in Frameworks */,
+				355AA0A91DA5498F004C69BF /* Quick.framework in Frameworks */,
 				3549BB841DA38B0000C63030 /* {{ cookiecutter.name }}.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -881,6 +893,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.{{ cookiecutter.name }}Tests-iOS";
@@ -894,6 +910,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.{{ cookiecutter.name }}Tests-iOS";
@@ -906,6 +926,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.{{ cookiecutter.name }}Tests-tvOS";
@@ -921,6 +945,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.{{ cookiecutter.name }}Tests-tvOS";
@@ -937,6 +965,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -954,6 +986,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
