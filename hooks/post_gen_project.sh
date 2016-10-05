@@ -3,4 +3,4 @@
 set -e
 
 sh scripts/bootstrap
-pod lib lint
+pod lib lint {{ cookiecutter.name }}/{{ cookiecutter.name }}.podspec
