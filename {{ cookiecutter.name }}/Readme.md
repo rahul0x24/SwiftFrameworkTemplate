@@ -1,7 +1,5 @@
 ## {{ cookiecutter.name }}
 
----
-
 [![Platforms](https://img.shields.io/cocoapods/p/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
 [![License](https://img.shields.io/cocoapods/l/{{ cookiecutter.name }}.svg)](https://raw.githubusercontent.com/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/master/LICENSE)
 
@@ -113,7 +111,7 @@ $ git submodule update --init --recursive
 
     > It does not matter which `Products` folder you choose from.
 
-- Select the `{{ cookiecutter.name }}.framework` & `Alamofire.framework`.
+- Select the `{{ cookiecutter.name }}.framework`.
 
 - And that's it!
 
@@ -125,10 +123,8 @@ $ git submodule update --init --recursive
 - Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
 - In the tab bar at the top of that window, open the "General" panel.
 - Click on the `+` button under the "Embedded Binaries" section.
-- Add the downloaded `{{ cookiecutter.name }}.framework` & `Alamofire.framework`.
+- Add the downloaded `{{ cookiecutter.name }}.framework`.
 - And that's it!
-
----
 
 ## Usage
 
