@@ -11,8 +11,6 @@
 
 [![Travis](https://img.shields.io/travis/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/master.svg)](https://travis-ci.org/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/branches)
 
-[![Join the chat at https://gitter.im/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}](https://badges.gitter.im/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}.svg)](https://gitter.im/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 {{ cookiecutter.summary }}
 
 - [Requirements](#requirements)
