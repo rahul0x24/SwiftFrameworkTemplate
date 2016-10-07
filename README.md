@@ -10,6 +10,7 @@ A template for new Framework project.
 - Dependency Managers - Cocoapods / Carthage / Swift Package Manager
 - TravisCI
 - Readme
+- MIT LICENSE
 - Testing Dependencies - Quick and Nimble
 
 ## Usage
