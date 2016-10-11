@@ -2,6 +2,8 @@
 
 A template for new Framework project.
 
+![Template](http://i.imgur.com/f6elUWD.png)
+
 ## What's in the template?
 
 - Deployment Targets - iOS 8.0 / Mac OS X 10.10 / tvOS 9.0 / watchOS 2.0
