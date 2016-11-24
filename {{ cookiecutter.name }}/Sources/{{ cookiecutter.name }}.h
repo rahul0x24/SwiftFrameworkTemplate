@@ -6,7 +6,7 @@
 //  Copyright © 2016 {{ cookiecutter.organization_name }}. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for {{ cookiecutter.name }}.
 FOUNDATION_EXPORT double {{ cookiecutter.name }}VersionNumber;
