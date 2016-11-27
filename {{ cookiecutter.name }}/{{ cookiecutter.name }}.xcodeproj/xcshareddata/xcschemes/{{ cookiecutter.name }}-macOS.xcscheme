@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3549BB7E1DA38B0000C63030"
+               BuildableName = "{{ cookiecutter.name }}Tests-macOS.xctest"
+               BlueprintName = "{{ cookiecutter.name }}Tests-macOS"
+               ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3549BB3A1DA389E800C63030"
+            BuildableName = "{{ cookiecutter.name }}.framework"
+            BlueprintName = "{{ cookiecutter.name }}-macOS"
+            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
