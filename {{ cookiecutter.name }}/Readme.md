@@ -8,6 +8,7 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
 
 [![Travis](https://img.shields.io/travis/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/master.svg)](https://travis-ci.org/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/branches)
+[![Cookiecutter-Swift](https://img.shields.io/badge/cookiecutter--swift-framework-red.svg)](http://github.com/cookiecutter-swift/Framework)
 
 {{ cookiecutter.summary }}
 
