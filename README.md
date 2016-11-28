@@ -26,6 +26,11 @@ A template for new Framework project.
 For future runs you can shorten the command to `cookiecutter Framework`.
 However, if you want to use the most recent template you should still run the full command above.
 
+## Built With Cookiecutter-Swift
+
+- [Restofire](http://github.com/Restofire/Restofire)
+- [RestofireGloss](http://github.com/Restofire/RestofireGloss)
+
 ## License
 
 Framework is released under the MIT license. See [LICENSE](https://github.com/cookiecutter-swift/Framework/blob/master/LICENSE) for details.
