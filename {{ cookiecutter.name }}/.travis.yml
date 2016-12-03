@@ -82,7 +82,7 @@ deploy:
       tags: true
       condition: $RELEASE_READY = YES
   - provider: script
-    script: sh scripts/cocoapods
+    script: pod trunk push
     on:
       tags: true
       condition: $RELEASE_READY = YES
