@@ -41,18 +41,6 @@
 		35A6FF791DF3036200661727 /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF491DF3036200661727 /* Application.xcconfig */; };
 		35A6FF7A1DF3036200661727 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF4A1DF3036200661727 /* Framework.xcconfig */; };
 		35A6FF7B1DF3036200661727 /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF4B1DF3036200661727 /* StaticLibrary.xcconfig */; };
-		35A6FF7C1DF3036200661727 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6FF4F1DF3036200661727 /* Nimble.framework */; };
-		35A6FF7D1DF3036200661727 /* Nimble.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF501DF3036200661727 /* Nimble.framework.dSYM */; };
-		35A6FF7E1DF3036200661727 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6FF511DF3036200661727 /* Quick.framework */; };
-		35A6FF7F1DF3036200661727 /* Quick.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF521DF3036200661727 /* Quick.framework.dSYM */; };
-		35A6FF801DF3036200661727 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6FF541DF3036200661727 /* Nimble.framework */; };
-		35A6FF811DF3036200661727 /* Nimble.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF551DF3036200661727 /* Nimble.framework.dSYM */; };
-		35A6FF821DF3036200661727 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6FF561DF3036200661727 /* Quick.framework */; };
-		35A6FF831DF3036200661727 /* Quick.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF571DF3036200661727 /* Quick.framework.dSYM */; };
-		35A6FF841DF3036200661727 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6FF591DF3036200661727 /* Nimble.framework */; };
-		35A6FF851DF3036200661727 /* Nimble.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF5A1DF3036200661727 /* Nimble.framework.dSYM */; };
-		35A6FF861DF3036200661727 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6FF5B1DF3036200661727 /* Quick.framework */; };
-		35A6FF871DF3036200661727 /* Quick.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF5C1DF3036200661727 /* Quick.framework.dSYM */; };
 		35A6FF881DF3036200661727 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF5E1DF3036200661727 /* iOS-Application.xcconfig */; };
 		35A6FF891DF3036200661727 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF5F1DF3036200661727 /* iOS-Base.xcconfig */; };
 		35A6FF8A1DF3036200661727 /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 35A6FF601DF3036200661727 /* iOS-Framework.xcconfig */; };
@@ -165,18 +153,6 @@
 		35A6FF491DF3036200661727 /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
 		35A6FF4A1DF3036200661727 /* Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
 		35A6FF4B1DF3036200661727 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
-		35A6FF4F1DF3036200661727 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
-		35A6FF501DF3036200661727 /* Nimble.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Nimble.framework.dSYM; sourceTree = "<group>"; };
-		35A6FF511DF3036200661727 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
-		35A6FF521DF3036200661727 /* Quick.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Quick.framework.dSYM; sourceTree = "<group>"; };
-		35A6FF541DF3036200661727 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
-		35A6FF551DF3036200661727 /* Nimble.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Nimble.framework.dSYM; sourceTree = "<group>"; };
-		35A6FF561DF3036200661727 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
-		35A6FF571DF3036200661727 /* Quick.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Quick.framework.dSYM; sourceTree = "<group>"; };
-		35A6FF591DF3036200661727 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
-		35A6FF5A1DF3036200661727 /* Nimble.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Nimble.framework.dSYM; sourceTree = "<group>"; };
-		35A6FF5B1DF3036200661727 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
-		35A6FF5C1DF3036200661727 /* Quick.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Quick.framework.dSYM; sourceTree = "<group>"; };
 		35A6FF5E1DF3036200661727 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
 		35A6FF5F1DF3036200661727 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
 		35A6FF601DF3036200661727 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
@@ -202,12 +178,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A6FF841DF3036200661727 /* Nimble.framework in Frameworks */,
-				35A6FF821DF3036200661727 /* Quick.framework in Frameworks */,
-				35A6FF861DF3036200661727 /* Quick.framework in Frameworks */,
-				35A6FF801DF3036200661727 /* Nimble.framework in Frameworks */,
-				35A6FF7E1DF3036200661727 /* Quick.framework in Frameworks */,
-				35A6FF7C1DF3036200661727 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +322,6 @@
 			children = (
 				35A6FF401DF3036200661727 /* .gitignore */,
 				35A6FF411DF3036200661727 /* Base */,
-				35A6FF4C1DF3036200661727 /* Carthage */,
 				35A6FF5D1DF3036200661727 /* iOS */,
 				35A6FF621DF3036200661727 /* Mac OS X */,
 				35A6FF681DF3036200661727 /* README.md */,
@@ -392,57 +361,6 @@
 				35A6FF4B1DF3036200661727 /* StaticLibrary.xcconfig */,
 			);
 			path = Targets;
-			sourceTree = "<group>";
-		};
-		35A6FF4C1DF3036200661727 /* Carthage */ = {
-			isa = PBXGroup;
-			children = (
-				35A6FF4D1DF3036200661727 /* Build */,
-			);
-			path = Carthage;
-			sourceTree = "<group>";
-		};
-		35A6FF4D1DF3036200661727 /* Build */ = {
-			isa = PBXGroup;
-			children = (
-				35A6FF4E1DF3036200661727 /* iOS */,
-				35A6FF531DF3036200661727 /* Mac */,
-				35A6FF581DF3036200661727 /* tvOS */,
-			);
-			path = Build;
-			sourceTree = "<group>";
-		};
-		35A6FF4E1DF3036200661727 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				35A6FF4F1DF3036200661727 /* Nimble.framework */,
-				35A6FF501DF3036200661727 /* Nimble.framework.dSYM */,
-				35A6FF511DF3036200661727 /* Quick.framework */,
-				35A6FF521DF3036200661727 /* Quick.framework.dSYM */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		35A6FF531DF3036200661727 /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-				35A6FF541DF3036200661727 /* Nimble.framework */,
-				35A6FF551DF3036200661727 /* Nimble.framework.dSYM */,
-				35A6FF561DF3036200661727 /* Quick.framework */,
-				35A6FF571DF3036200661727 /* Quick.framework.dSYM */,
-			);
-			path = Mac;
-			sourceTree = "<group>";
-		};
-		35A6FF581DF3036200661727 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				35A6FF591DF3036200661727 /* Nimble.framework */,
-				35A6FF5A1DF3036200661727 /* Nimble.framework.dSYM */,
-				35A6FF5B1DF3036200661727 /* Quick.framework */,
-				35A6FF5C1DF3036200661727 /* Quick.framework.dSYM */,
-			);
-			path = tvOS;
 			sourceTree = "<group>";
 		};
 		35A6FF5D1DF3036200661727 /* iOS */ = {
@@ -728,7 +646,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A6FF7F1DF3036200661727 /* Quick.framework.dSYM in Resources */,
 				35A6FF771DF3036200661727 /* Release.xcconfig in Resources */,
 				35A6FF791DF3036200661727 /* Application.xcconfig in Resources */,
 				35A6FF891DF3036200661727 /* iOS-Base.xcconfig in Resources */,
@@ -739,7 +656,6 @@
 				35A6FF761DF3036200661727 /* Profile.xcconfig in Resources */,
 				35A6FF751DF3036200661727 /* Debug.xcconfig in Resources */,
 				35A6FF8D1DF3036200661727 /* Mac-Base.xcconfig in Resources */,
-				35A6FF831DF3036200661727 /* Quick.framework.dSYM in Resources */,
 				35A6FF991DF3036200661727 /* watchOS-StaticLibrary.xcconfig in Resources */,
 				35A6FF931DF3036200661727 /* tvOS-Base.xcconfig in Resources */,
 				35A6FF981DF3036200661727 /* watchOS-Framework.xcconfig in Resources */,
@@ -747,7 +663,6 @@
 				35A6FF901DF3036200661727 /* Mac-StaticLibrary.xcconfig in Resources */,
 				35A6FF8B1DF3036200661727 /* iOS-StaticLibrary.xcconfig in Resources */,
 				35A6FF881DF3036200661727 /* iOS-Application.xcconfig in Resources */,
-				35A6FF7D1DF3036200661727 /* Nimble.framework.dSYM in Resources */,
 				3549BB591DA38A8800C63030 /* Info-tvOS.plist in Resources */,
 				35A6FF921DF3036200661727 /* tvOS-Application.xcconfig in Resources */,
 				3549BB561DA38A5E00C63030 /* Info-tvOS.plist in Resources */,
@@ -757,12 +672,9 @@
 				35A6FF8E1DF3036200661727 /* Mac-DynamicLibrary.xcconfig in Resources */,
 				35A6FF7B1DF3036200661727 /* StaticLibrary.xcconfig in Resources */,
 				35A6FF8C1DF3036200661727 /* Mac-Application.xcconfig in Resources */,
-				35A6FF851DF3036200661727 /* Nimble.framework.dSYM in Resources */,
 				35A6FF781DF3036200661727 /* Test.xcconfig in Resources */,
 				35A6FF8A1DF3036200661727 /* iOS-Framework.xcconfig in Resources */,
 				35A6FF951DF3036200661727 /* tvOS-StaticLibrary.xcconfig in Resources */,
-				35A6FF871DF3036200661727 /* Quick.framework.dSYM in Resources */,
-				35A6FF811DF3036200661727 /* Nimble.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
