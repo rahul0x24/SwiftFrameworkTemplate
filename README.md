@@ -19,11 +19,11 @@ A template for new Framework project.
 
 1. [Install cookiecutter][cookiecutter] (`brew install cookiecutter` on
    macOS).
-2. Run `cookiecutter https://github.com/cookiecutter-swift/Framework`
+2. Run `cookiecutter https://github.com/cookiecutter-swift/FrameworkTemplate`
 
 [cookiecutter]: http://cookiecutter.readthedocs.org/en/latest/installation.html
 
-For future runs you can shorten the command to `cookiecutter Framework`.
+For future runs you can shorten the command to `cookiecutter FrameworkTemplate`.
 However, if you want to use the most recent template you should still run the full command above.
 
 ## Built With Cookiecutter-Swift
