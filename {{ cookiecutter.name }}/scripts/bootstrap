@@ -1,1 +1,1 @@
-carthage update xcconfigs Nimble Quick --no-use-binaries --use-submodules
+carthage update --no-use-binaries --use-submodules
