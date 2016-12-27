@@ -28,4 +28,10 @@
    <FileRef
       location = "group:Readme.md">
    </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Quick/Quick.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Nimble/Nimble.xcodeproj">
+   </FileRef>
 </Workspace>
