@@ -11,9 +11,6 @@
 		3549BB511DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB521DA38A2100C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB531DA38A2200C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB561DA38A5E00C63030 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3549BB551DA38A5E00C63030 /* Info-tvOS.plist */; };
-		3549BB591DA38A8800C63030 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3549BB571DA38A8800C63030 /* Info-tvOS.plist */; };
-		3549BB5A1DA38A8800C63030 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3549BB581DA38A8800C63030 /* Info.plist */; };
 		3549BB661DA38ADB00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */; };
 		3549BB751DA38AEF00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB481DA389F300C63030 /* {{ cookiecutter.name }}.framework */; };
 		3549BB841DA38B0000C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB3B1DA389E800C63030 /* {{ cookiecutter.name }}.framework */; };
@@ -912,9 +909,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB591DA38A8800C63030 /* Info-tvOS.plist in Resources */,
-				3549BB561DA38A5E00C63030 /* Info-tvOS.plist in Resources */,
-				3549BB5A1DA38A8800C63030 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
