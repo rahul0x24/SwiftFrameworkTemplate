@@ -17,10 +17,14 @@ A template for new Framework project.
 
 ## Usage
 
-1. [Install cookiecutter][cookiecutter] (`brew install cookiecutter` on
-   macOS).
-2. Run `cookiecutter https://github.com/cookiecutter-swift/FrameworkTemplate`
 
+1. [Install carthage][carthage] (`brew install carthage` on
+   macOS).
+2. [Install cookiecutter][cookiecutter] (`brew install cookiecutter` on
+   macOS).
+3. Run `cookiecutter https://github.com/cookiecutter-swift/FrameworkTemplate`
+
+[carthage]: https://github.com/Carthage/Carthage
 [cookiecutter]: http://cookiecutter.readthedocs.org/en/latest/installation.html
 
 For future runs you can shorten the command to `cookiecutter FrameworkTemplate`.
