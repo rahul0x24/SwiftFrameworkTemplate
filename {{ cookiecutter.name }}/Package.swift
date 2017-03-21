@@ -3,7 +3,7 @@
 //  {{ cookiecutter.name }}
 //
 //  Created by {{ cookiecutter.full_name }} on 23/10/15.
-//  Copyright © 2016 {{ cookiecutter.organization_name }}. All rights reserved.
+//  Copyright © 2017 {{ cookiecutter.organization_name }}. All rights reserved.
 //
 
 import PackageDescription
