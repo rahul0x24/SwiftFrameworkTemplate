@@ -2,6 +2,18 @@
 
 A template for new Framework project.
 
+![Platforms](https://img.shields.io/cocoapods/p/Restofire.svg)
+[![License](https://img.shields.io/cocoapods/l/Restofire.svg)](https://raw.githubusercontent.com/JetpackSwift/FrameworkTemplate/master/LICENSE)
+
+[![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods compatible](https://img.shields.io/badge/Cocoapods-compatible-4BC51D.svg?style=flat)](https://github.com/Cocoapods/Cocoapods)
+
+[![Travis](https://img.shields.io/travis/JetpackSwift/FrameworkTemplate/master.svg)](https://travis-ci.org/JetpackSwift/FrameworkTemplate/branches)
+
+[![Join the chat at https://gitter.im/JetpackSwift/Restofire](https://badges.gitter.im/JetpackSwift/FrameworkTemplate.svg)](https://gitter.im/JetpackSwift/FrameworkTemplate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Twitter](https://img.shields.io/twitter/follow/rahulkatariya91.svg?style=social&label=Follow)](https://twitter.com/rahulkatariya91)
+
 ![Template](http://i.imgur.com/f6elUWD.png)
 
 ## What's in the template?
