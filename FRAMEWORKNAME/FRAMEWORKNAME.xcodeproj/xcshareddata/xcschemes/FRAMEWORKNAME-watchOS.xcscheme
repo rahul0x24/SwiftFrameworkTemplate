@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-               BuildableName = "{{ cookiecutter.name }}.framework"
-               BlueprintName = "{{ cookiecutter.name }}-macOS"
-               ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+               BlueprintIdentifier = "3549BB2D1DA389DB00C63030"
+               BuildableName = "FRAMEWORKNAME.framework"
+               BlueprintName = "FRAMEWORKNAME-watchOS"
+               ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,26 +29,7 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3549BB7E1DA38B0000C63030"
-               BuildableName = "{{ cookiecutter.name }}Tests-macOS.xctest"
-               BlueprintName = "{{ cookiecutter.name }}Tests-macOS"
-               ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-macOS"
-            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -66,10 +47,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-macOS"
-            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+            BlueprintIdentifier = "3549BB2D1DA389DB00C63030"
+            BuildableName = "FRAMEWORKNAME.framework"
+            BlueprintName = "FRAMEWORKNAME-watchOS"
+            ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,10 +65,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-macOS"
-            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+            BlueprintIdentifier = "3549BB2D1DA389DB00C63030"
+            BuildableName = "FRAMEWORKNAME.framework"
+            BlueprintName = "FRAMEWORKNAME-watchOS"
+            ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

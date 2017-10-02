@@ -1,85 +1,66 @@
 language: objective-c
-osx_image: xcode8.3
-
-git:
-  submodules: false
-
+osx_image: xcode9
+branches:
+  only:
+  - master
+  - "/^X\\d+(.\\d+)?\\/S\\d+(.\\d+)?$/"
+before_install:
+- gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+- brew update
+- brew outdated carthage || brew upgrade carthage
+- brew install cookiecutter
+- cookiecutter -c develop --no-input https://github.com/JetpackSwift/FrameworkTemplate
 env:
   global:
-    - LC_CTYPE=en_US.UTF-8
-    - LANG=en_US.UTF-8
-    - WORKSPACE=Framework.xcworkspace
-    - IOS_FRAMEWORK_SCHEME="Framework-iOS"
-    - OSX_FRAMEWORK_SCHEME="Framework-macOS"
-    - TVOS_FRAMEWORK_SCHEME="Framework-tvOS"
-    - WATCHOS_FRAMEWORK_SCHEME="Framework-watchOS"
-    - IOS_SDK=iphonesimulator10.3
-    - OSX_SDK=macosx10.12
-    - TVOS_SDK=appletvsimulator10.2
-    - WATCHOS_SDK=watchsimulator3.2
-    - EXAMPLE_SCHEME="Example"
+  - LC_CTYPE=en_US.UTF-8
+  - LANG=en_US.UTF-8
+  - WORKSPACE=Framework.xcworkspace
+  - IOS_FRAMEWORK_SCHEME="Framework-iOS"
+  - OSX_FRAMEWORK_SCHEME="Framework-macOS"
+  - TVOS_FRAMEWORK_SCHEME="Framework-tvOS"
+  - WATCHOS_FRAMEWORK_SCHEME="Framework-watchOS"
   matrix:
-    - DESTINATION="OS=10.3.1,name=iPhone 7 Plus"              SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="YES"  BUILD_EXAMPLE="YES" RELEASE_READY="YES" POD_LINT="NO"
-    - DESTINATION="OS=9.0,name=iPhone 6s"                   SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="YES"  BUILD_EXAMPLE="YES" RELEASE_READY="NO"  POD_LINT="NO"
-    - DESTINATION="OS=8.1,name=iPhone 5"                    SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="YES"  BUILD_EXAMPLE="YES" RELEASE_READY="NO"  POD_LINT="NO"
-    - DESTINATION="arch=x86_64"                             SCHEME="$OSX_FRAMEWORK_SCHEME"     SDK="$OSX_SDK"     RUN_TESTS="YES"  BUILD_EXAMPLE="NO"  RELEASE_READY="NO"  POD_LINT="NO"
-    - DESTINATION="OS=10.1,name=Apple TV 1080p"             SCHEME="$TVOS_FRAMEWORK_SCHEME"    SDK="$TVOS_SDK"    RUN_TESTS="YES"  BUILD_EXAMPLE="NO"  RELEASE_READY="NO"  POD_LINT="NO"
-    - DESTINATION="OS=9.0,name=Apple TV 1080p"              SCHEME="$TVOS_FRAMEWORK_SCHEME"    SDK="$TVOS_SDK"    RUN_TESTS="YES"  BUILD_EXAMPLE="NO"  RELEASE_READY="NO"  POD_LINT="NO"
-    - DESTINATION="OS=3.1,name=Apple Watch Series 2 - 42mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME" SDK="$WATCHOS_SDK" RUN_TESTS="NO"   BUILD_EXAMPLE="NO"  RELEASE_READY="NO"  POD_LINT="NO"
-    - DESTINATION="OS=2.0,name=Apple Watch - 38mm"          SCHEME="$WATCHOS_FRAMEWORK_SCHEME" SDK="$WATCHOS_SDK" RUN_TESTS="NO"   BUILD_EXAMPLE="NO"  RELEASE_READY="NO"  POD_LINT="NO"
-
-before_install:
-  - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
-  - brew update
-  - brew outdated carthage || brew upgrade carthage
-  - brew install cookiecutter
-  - cookiecutter -c develop --no-input https://github.com/JetpackSwift/FrameworkTemplate
-
+  - DESTINATION="OS=11.0,name=iPhone X"                   SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
+  - DESTINATION="OS=10.3.1,name=iPhone 7 Plus"            SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
+  - DESTINATION="OS=9.0,name=iPhone 6"                    SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
+  - DESTINATION="OS=8.1,name=iPhone 4s"                   SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
+  - DESTINATION="arch=x86_64"                             SCHEME="$OSX_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
+  - DESTINATION="OS=11.0,name=Apple TV 1080p"             SCHEME="$TVOS_FRAMEWORK_SCHEME"    RUN_TESTS="YES"
+  - DESTINATION="OS=10.2,name=Apple TV 1080p"             SCHEME="$TVOS_FRAMEWORK_SCHEME"    RUN_TESTS="YES"
+  - DESTINATION="OS=9.0,name=Apple TV 1080p"              SCHEME="$TVOS_FRAMEWORK_SCHEME"    RUN_TESTS="YES"
+  - DESTINATION="OS=4.0,name=Apple Watch Series 2 - 42mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME" RUN_TESTS="NO"
+  - DESTINATION="OS=3.1,name=Apple Watch Series 2 - 42mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME" RUN_TESTS="NO"
+  - DESTINATION="OS=2.0,name=Apple Watch - 38mm"          SCHEME="$WATCHOS_FRAMEWORK_SCHEME" RUN_TESTS="NO"
 before_script:
-  - cd Framework
-
+- cd Framework
 script:
-  - set -o pipefail
-  - xcodebuild -version
-  - xcodebuild -showsdks
-
-  # Build Framework in Debug and Run Tests if specified
-  - if [ $RUN_TESTS == "YES" ]; then
-      xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty -c;
-    else
-      xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
-    fi
-
-  # Build Framework in Release and Run Tests if specified
-  - if [ $RUN_TESTS == "YES" ]; then
-      xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty -c;
-    else
-      xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
-    fi
-
-  # Build Example in Debug if specified
-  # - if [ $BUILD_EXAMPLE == "YES" ]; then
-  #   xcodebuild -workspace "$WORKSPACE" -scheme "$EXAMPLE_SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
-  # fi
-
-  # Run `pod lib lint` if specified
-  - if [ $POD_LINT == "YES" ]; then
-     pod lib lint;
-   fi
-
-before_deploy:
-  - carthage build --no-skip-current
-  - carthage archive Framework
-
-deploy:
-  - provider: releases
-    api_key:
-      secure:
-    file:
+- set -o pipefail
+- xcodebuild -version
+- xcodebuild -showsdks
+- if [ $RUN_TESTS == "YES" ]; then
+    xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES
+  test | xcpretty -c;
+  else
+    xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
+  fi
+- if [ $RUN_TESTS == "YES" ]; then
+    xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty -c;
+  else
+    xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
+  fi
+jobs:
+  include:
+  - script: pod lib lint --verbose --allow-warnings
+  - stage: deploy
+    before_deploy: carthage build --no-skip-current && carthage archive Framework
+    deploy:
+    - provider: releases
+      api_key:
+        secure: FSIvrLX/x7Y/D3FFIMZYwyvlrX+r7DOJbp0SSd4rIuIW8Cwrwcef3NDbjzqolG+l/kxDuiS80m+n+M6PxMiAbfjwP7a8JyWvMnZzTpoPaN9Otubj0Q/MFTU0RIEB51ECLE/v6xRcK/tVhc7uvcCZh1O+5F2hBq8Wiopo9ajiabN6UEAeNwIUWkwCxB8N2uclfHj3Yn03ZqMp2W8WLmG0fRYThlAHaleRo1fnO2DC83rkicfhuzjrqghPni8Th8COQHVQh+Cma3R+k/X6o6Gj1tTuAQlxH4Buk7Jxfk86h9vdnCNmKuuE2CYfmDDDKpauydHTSq7ap+JruinMfRZo3XqNm7U5ev+o9ic0PexTRLpov5i8tKZ5RYSXCpsF/XydeZYyyDV+9P7+uK42SgCZjvVjpmAqurIB1FFId14EH0CBWoJUWSA4elRaUE0iHkN+ivufvCGq9vemDGaJb0QfQLEuSKAo9Bhedl/mhGBlcDLwFFmGSvyOy4AiC6yplr9Ykae8rHwTEY/HU1B5i6R/7qYXhdiNOI5ImXSqGWYn9+fJIz8FwLI4U4WwsVN6SeXz/5B2+a6+rfn1i+liTgSKfH/BN+CsepHzXrT/0uP31XHx8oBNUECIB+GoExgs3EOmpRBWUnjNTGE1JwgE2SUpjcESRzig02yu0SvUmNHdrJs=
+      file:
       - Framework.framework.zip
-    skip_cleanup: true
-    overwrite: true
-    on:
-      repo: cookiecutter-swift/Framework
-      tags: true
-      condition: $RELEASE_READY = YES
+      skip_cleanup: true
+      overwrite: true
+      on:
+        repo: JetpackSwift/FrameworkTemplate
+        tags: true
