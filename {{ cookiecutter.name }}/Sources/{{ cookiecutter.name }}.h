@@ -3,7 +3,7 @@
 //  {{ cookiecutter.name }}
 //
 //  Created by {{ cookiecutter.full_name }} on 04/10/16.
-//  Copyright © 2017 {{ cookiecutter.organization_name }}. All rights reserved.
+//  Copyright © 2017 {{ cookiecutter.github_name }}. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

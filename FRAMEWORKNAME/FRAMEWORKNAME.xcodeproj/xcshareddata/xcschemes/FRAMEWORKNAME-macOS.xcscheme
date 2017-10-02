@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-               BuildableName = "{{ cookiecutter.name }}.framework"
-               BlueprintName = "{{ cookiecutter.name }}-macOS"
-               ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+               BuildableName = "FRAMEWORKNAME.framework"
+               BlueprintName = "FRAMEWORKNAME-macOS"
+               ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3549BB7E1DA38B0000C63030"
-               BuildableName = "{{ cookiecutter.name }}Tests-macOS.xctest"
-               BlueprintName = "{{ cookiecutter.name }}Tests-macOS"
-               ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+               BuildableName = "FRAMEWORKNAMETests-macOS.xctest"
+               BlueprintName = "FRAMEWORKNAMETests-macOS"
+               ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-macOS"
-            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+            BuildableName = "FRAMEWORKNAME.framework"
+            BlueprintName = "FRAMEWORKNAME-macOS"
+            ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-macOS"
-            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+            BuildableName = "FRAMEWORKNAME.framework"
+            BlueprintName = "FRAMEWORKNAME-macOS"
+            ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-macOS"
-            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+            BuildableName = "FRAMEWORKNAME.framework"
+            BlueprintName = "FRAMEWORKNAME-macOS"
+            ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

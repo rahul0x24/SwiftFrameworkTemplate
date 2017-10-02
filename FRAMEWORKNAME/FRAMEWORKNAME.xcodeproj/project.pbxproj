@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3549BB501DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB511DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB521DA38A2100C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB531DA38A2200C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB661DA38ADB00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */; };
-		3549BB751DA38AEF00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB481DA389F300C63030 /* {{ cookiecutter.name }}.framework */; };
-		3549BB841DA38B0000C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB3B1DA389E800C63030 /* {{ cookiecutter.name }}.framework */; };
-		3549BB8B1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */; };
-		3549BB8C1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */; };
-		3549BB8D1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */; };
+		3549BB501DA38A2000C63030 /* FRAMEWORKNAME.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* FRAMEWORKNAME.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3549BB511DA38A2000C63030 /* FRAMEWORKNAME.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* FRAMEWORKNAME.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3549BB521DA38A2100C63030 /* FRAMEWORKNAME.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* FRAMEWORKNAME.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3549BB531DA38A2200C63030 /* FRAMEWORKNAME.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* FRAMEWORKNAME.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3549BB661DA38ADB00C63030 /* FRAMEWORKNAME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB211DA389CD00C63030 /* FRAMEWORKNAME.framework */; };
+		3549BB751DA38AEF00C63030 /* FRAMEWORKNAME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB481DA389F300C63030 /* FRAMEWORKNAME.framework */; };
+		3549BB841DA38B0000C63030 /* FRAMEWORKNAME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB3B1DA389E800C63030 /* FRAMEWORKNAME.framework */; };
+		3549BB8B1DA38C0A00C63030 /* FRAMEWORKNAMESpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* FRAMEWORKNAMESpec.swift */; };
+		3549BB8C1DA38C0A00C63030 /* FRAMEWORKNAMESpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* FRAMEWORKNAMESpec.swift */; };
+		3549BB8D1DA38C0A00C63030 /* FRAMEWORKNAMESpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* FRAMEWORKNAMESpec.swift */; };
 		354AD5861F8A659800B18FAE /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354AD5841F8A659800B18FAE /* Quick.framework */; };
 		354AD5871F8A659800B18FAE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354AD5851F8A659800B18FAE /* Nimble.framework */; };
 		354AD5881F8A65B500B18FAE /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354AD5851F8A659800B18FAE /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -29,10 +29,10 @@
 		35B742371F82A61E00829B21 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742351F82A61E00829B21 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35B742381F82A62900829B21 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742341F82A61D00829B21 /* Nimble.framework */; };
 		35B742391F82A62900829B21 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742351F82A61E00829B21 /* Quick.framework */; };
-		35B7427F1F82A82F00829B21 /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B7427E1F82A82F00829B21 /* {{ cookiecutter.name }}.swift */; };
-		35B742801F82A82F00829B21 /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B7427E1F82A82F00829B21 /* {{ cookiecutter.name }}.swift */; };
-		35B742811F82A83000829B21 /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B7427E1F82A82F00829B21 /* {{ cookiecutter.name }}.swift */; };
-		35B742821F82A83000829B21 /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B7427E1F82A82F00829B21 /* {{ cookiecutter.name }}.swift */; };
+		35B7427F1F82A82F00829B21 /* FRAMEWORKNAME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B7427E1F82A82F00829B21 /* FRAMEWORKNAME.swift */; };
+		35B742801F82A82F00829B21 /* FRAMEWORKNAME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B7427E1F82A82F00829B21 /* FRAMEWORKNAME.swift */; };
+		35B742811F82A83000829B21 /* FRAMEWORKNAME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B7427E1F82A82F00829B21 /* FRAMEWORKNAME.swift */; };
+		35B742821F82A83000829B21 /* FRAMEWORKNAME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B7427E1F82A82F00829B21 /* FRAMEWORKNAME.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,21 +41,21 @@
 			containerPortal = 3549BAFC1DA387DB00C63030 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3549BB201DA389CD00C63030;
-			remoteInfo = "{{ cookiecutter.name }}-iOS";
+			remoteInfo = "FRAMEWORKNAME-iOS";
 		};
 		3549BB761DA38AEF00C63030 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3549BAFC1DA387DB00C63030 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3549BB471DA389F300C63030;
-			remoteInfo = "{{ cookiecutter.name }}-tvOS";
+			remoteInfo = "FRAMEWORKNAME-tvOS";
 		};
 		3549BB851DA38B0000C63030 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3549BAFC1DA387DB00C63030 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3549BB3A1DA389E800C63030;
-			remoteInfo = "{{ cookiecutter.name }}-macOS";
+			remoteInfo = "FRAMEWORKNAME-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -100,25 +100,25 @@
 
 /* Begin PBXFileReference section */
 		3549BB171DA3890B00C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = {{ cookiecutter.name }}.h; sourceTree = "<group>"; };
-		3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB2E1DA389DB00C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB3B1DA389E800C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB481DA389F300C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB181DA3890B00C63030 /* FRAMEWORKNAME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRAMEWORKNAME.h; sourceTree = "<group>"; };
+		3549BB211DA389CD00C63030 /* FRAMEWORKNAME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRAMEWORKNAME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB2E1DA389DB00C63030 /* FRAMEWORKNAME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRAMEWORKNAME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB3B1DA389E800C63030 /* FRAMEWORKNAME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRAMEWORKNAME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB481DA389F300C63030 /* FRAMEWORKNAME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRAMEWORKNAME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3549BB551DA38A5E00C63030 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		3549BB571DA38A8800C63030 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		3549BB581DA38A8800C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3549BB611DA38ADB00C63030 /* {{ cookiecutter.name }}Tests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{ cookiecutter.name }}Tests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB701DA38AEF00C63030 /* {{ cookiecutter.name }}Tests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{ cookiecutter.name }}Tests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB7F1DA38B0000C63030 /* {{ cookiecutter.name }}Tests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{ cookiecutter.name }}Tests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = {{ cookiecutter.name }}Spec.swift; sourceTree = "<group>"; };
+		3549BB611DA38ADB00C63030 /* FRAMEWORKNAMETests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FRAMEWORKNAMETests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB701DA38AEF00C63030 /* FRAMEWORKNAMETests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FRAMEWORKNAMETests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB7F1DA38B0000C63030 /* FRAMEWORKNAMETests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FRAMEWORKNAMETests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB8A1DA38C0A00C63030 /* FRAMEWORKNAMESpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRAMEWORKNAMESpec.swift; sourceTree = "<group>"; };
 		354AD5841F8A659800B18FAE /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
 		354AD5851F8A659800B18FAE /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
 		35B7422D1F82A5DF00829B21 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		35B7422E1F82A5E000829B21 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		35B742341F82A61D00829B21 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		35B742351F82A61E00829B21 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
-		35B7427E1F82A82F00829B21 /* {{ cookiecutter.name }}.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = {{ cookiecutter.name }}.swift; sourceTree = "<group>"; };
+		35B7427E1F82A82F00829B21 /* FRAMEWORKNAME.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRAMEWORKNAME.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,7 @@
 			files = (
 				35B742311F82A5EC00829B21 /* Nimble.framework in Frameworks */,
 				35B742321F82A5EC00829B21 /* Quick.framework in Frameworks */,
-				3549BB661DA38ADB00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */,
+				3549BB661DA38ADB00C63030 /* FRAMEWORKNAME.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +166,7 @@
 			files = (
 				354AD5861F8A659800B18FAE /* Quick.framework in Frameworks */,
 				354AD5871F8A659800B18FAE /* Nimble.framework in Frameworks */,
-				3549BB751DA38AEF00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */,
+				3549BB751DA38AEF00C63030 /* FRAMEWORKNAME.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +176,7 @@
 			files = (
 				35B742381F82A62900829B21 /* Nimble.framework in Frameworks */,
 				35B742391F82A62900829B21 /* Quick.framework in Frameworks */,
-				3549BB841DA38B0000C63030 /* {{ cookiecutter.name }}.framework in Frameworks */,
+				3549BB841DA38B0000C63030 /* FRAMEWORKNAME.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +196,13 @@
 		3549BB061DA387DB00C63030 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */,
-				3549BB2E1DA389DB00C63030 /* {{ cookiecutter.name }}.framework */,
-				3549BB3B1DA389E800C63030 /* {{ cookiecutter.name }}.framework */,
-				3549BB481DA389F300C63030 /* {{ cookiecutter.name }}.framework */,
-				3549BB611DA38ADB00C63030 /* {{ cookiecutter.name }}Tests-iOS.xctest */,
-				3549BB701DA38AEF00C63030 /* {{ cookiecutter.name }}Tests-tvOS.xctest */,
-				3549BB7F1DA38B0000C63030 /* {{ cookiecutter.name }}Tests-macOS.xctest */,
+				3549BB211DA389CD00C63030 /* FRAMEWORKNAME.framework */,
+				3549BB2E1DA389DB00C63030 /* FRAMEWORKNAME.framework */,
+				3549BB3B1DA389E800C63030 /* FRAMEWORKNAME.framework */,
+				3549BB481DA389F300C63030 /* FRAMEWORKNAME.framework */,
+				3549BB611DA38ADB00C63030 /* FRAMEWORKNAMETests-iOS.xctest */,
+				3549BB701DA38AEF00C63030 /* FRAMEWORKNAMETests-tvOS.xctest */,
+				3549BB7F1DA38B0000C63030 /* FRAMEWORKNAMETests-macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,7 +219,7 @@
 		3549BB191DA3890B00C63030 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */,
+				3549BB8A1DA38C0A00C63030 /* FRAMEWORKNAMESpec.swift */,
 				3549BB5B1DA38A8C00C63030 /* Supporting Files */,
 			);
 			path = Tests;
@@ -228,7 +228,7 @@
 		3549BB541DA38A4000C63030 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */,
+				3549BB181DA3890B00C63030 /* FRAMEWORKNAME.h */,
 				3549BB171DA3890B00C63030 /* Info.plist */,
 				3549BB551DA38A5E00C63030 /* Info-tvOS.plist */,
 			);
@@ -247,7 +247,7 @@
 		3549BB5C1DA38AA500C63030 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				35B7427E1F82A82F00829B21 /* {{ cookiecutter.name }}.swift */,
+				35B7427E1F82A82F00829B21 /* FRAMEWORKNAME.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB501DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */,
+				3549BB501DA38A2000C63030 /* FRAMEWORKNAME.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +280,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB521DA38A2100C63030 /* {{ cookiecutter.name }}.h in Headers */,
+				3549BB521DA38A2100C63030 /* FRAMEWORKNAME.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +288,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB531DA38A2200C63030 /* {{ cookiecutter.name }}.h in Headers */,
+				3549BB531DA38A2200C63030 /* FRAMEWORKNAME.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,16 +296,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB511DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */,
+				3549BB511DA38A2000C63030 /* FRAMEWORKNAME.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3549BB201DA389CD00C63030 /* {{ cookiecutter.name }}-iOS */ = {
+		3549BB201DA389CD00C63030 /* FRAMEWORKNAME-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB261DA389CD00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-iOS" */;
+			buildConfigurationList = 3549BB261DA389CD00C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAME-iOS" */;
 			buildPhases = (
 				3549BB1C1DA389CD00C63030 /* Sources */,
 				3549BB1D1DA389CD00C63030 /* Frameworks */,
@@ -316,14 +316,14 @@
 			);
 			dependencies = (
 			);
-			name = "{{ cookiecutter.name }}-iOS";
-			productName = "{{ cookiecutter.name }}-iOS";
-			productReference = 3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */;
+			name = "FRAMEWORKNAME-iOS";
+			productName = "FRAMEWORKNAME-iOS";
+			productReference = 3549BB211DA389CD00C63030 /* FRAMEWORKNAME.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3549BB2D1DA389DB00C63030 /* {{ cookiecutter.name }}-watchOS */ = {
+		3549BB2D1DA389DB00C63030 /* FRAMEWORKNAME-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB331DA389DB00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-watchOS" */;
+			buildConfigurationList = 3549BB331DA389DB00C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAME-watchOS" */;
 			buildPhases = (
 				3549BB291DA389DB00C63030 /* Sources */,
 				3549BB2A1DA389DB00C63030 /* Frameworks */,
@@ -334,14 +334,14 @@
 			);
 			dependencies = (
 			);
-			name = "{{ cookiecutter.name }}-watchOS";
-			productName = "{{ cookiecutter.name }}-watchOS";
-			productReference = 3549BB2E1DA389DB00C63030 /* {{ cookiecutter.name }}.framework */;
+			name = "FRAMEWORKNAME-watchOS";
+			productName = "FRAMEWORKNAME-watchOS";
+			productReference = 3549BB2E1DA389DB00C63030 /* FRAMEWORKNAME.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3549BB3A1DA389E800C63030 /* {{ cookiecutter.name }}-macOS */ = {
+		3549BB3A1DA389E800C63030 /* FRAMEWORKNAME-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB401DA389E800C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-macOS" */;
+			buildConfigurationList = 3549BB401DA389E800C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAME-macOS" */;
 			buildPhases = (
 				3549BB361DA389E800C63030 /* Sources */,
 				3549BB371DA389E800C63030 /* Frameworks */,
@@ -352,14 +352,14 @@
 			);
 			dependencies = (
 			);
-			name = "{{ cookiecutter.name }}-macOS";
-			productName = "{{ cookiecutter.name }}-macOS";
-			productReference = 3549BB3B1DA389E800C63030 /* {{ cookiecutter.name }}.framework */;
+			name = "FRAMEWORKNAME-macOS";
+			productName = "FRAMEWORKNAME-macOS";
+			productReference = 3549BB3B1DA389E800C63030 /* FRAMEWORKNAME.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3549BB471DA389F300C63030 /* {{ cookiecutter.name }}-tvOS */ = {
+		3549BB471DA389F300C63030 /* FRAMEWORKNAME-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB4D1DA389F300C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-tvOS" */;
+			buildConfigurationList = 3549BB4D1DA389F300C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAME-tvOS" */;
 			buildPhases = (
 				3549BB431DA389F300C63030 /* Sources */,
 				3549BB441DA389F300C63030 /* Frameworks */,
@@ -370,14 +370,14 @@
 			);
 			dependencies = (
 			);
-			name = "{{ cookiecutter.name }}-tvOS";
-			productName = "{{ cookiecutter.name }}-tvOS";
-			productReference = 3549BB481DA389F300C63030 /* {{ cookiecutter.name }}.framework */;
+			name = "FRAMEWORKNAME-tvOS";
+			productName = "FRAMEWORKNAME-tvOS";
+			productReference = 3549BB481DA389F300C63030 /* FRAMEWORKNAME.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3549BB601DA38ADB00C63030 /* {{ cookiecutter.name }}Tests-iOS */ = {
+		3549BB601DA38ADB00C63030 /* FRAMEWORKNAMETests-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB691DA38ADB00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-iOS" */;
+			buildConfigurationList = 3549BB691DA38ADB00C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAMETests-iOS" */;
 			buildPhases = (
 				3549BB5D1DA38ADB00C63030 /* Sources */,
 				3549BB5E1DA38ADB00C63030 /* Frameworks */,
@@ -389,14 +389,14 @@
 			dependencies = (
 				3549BB681DA38ADB00C63030 /* PBXTargetDependency */,
 			);
-			name = "{{ cookiecutter.name }}Tests-iOS";
-			productName = "{{ cookiecutter.name }}Tests-iOS";
-			productReference = 3549BB611DA38ADB00C63030 /* {{ cookiecutter.name }}Tests-iOS.xctest */;
+			name = "FRAMEWORKNAMETests-iOS";
+			productName = "FRAMEWORKNAMETests-iOS";
+			productReference = 3549BB611DA38ADB00C63030 /* FRAMEWORKNAMETests-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3549BB6F1DA38AEF00C63030 /* {{ cookiecutter.name }}Tests-tvOS */ = {
+		3549BB6F1DA38AEF00C63030 /* FRAMEWORKNAMETests-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB781DA38AEF00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-tvOS" */;
+			buildConfigurationList = 3549BB781DA38AEF00C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAMETests-tvOS" */;
 			buildPhases = (
 				3549BB6C1DA38AEF00C63030 /* Sources */,
 				3549BB6D1DA38AEF00C63030 /* Frameworks */,
@@ -408,14 +408,14 @@
 			dependencies = (
 				3549BB771DA38AEF00C63030 /* PBXTargetDependency */,
 			);
-			name = "{{ cookiecutter.name }}Tests-tvOS";
-			productName = "{{ cookiecutter.name }}Tests-tvOS";
-			productReference = 3549BB701DA38AEF00C63030 /* {{ cookiecutter.name }}Tests-tvOS.xctest */;
+			name = "FRAMEWORKNAMETests-tvOS";
+			productName = "FRAMEWORKNAMETests-tvOS";
+			productReference = 3549BB701DA38AEF00C63030 /* FRAMEWORKNAMETests-tvOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3549BB7E1DA38B0000C63030 /* {{ cookiecutter.name }}Tests-macOS */ = {
+		3549BB7E1DA38B0000C63030 /* FRAMEWORKNAMETests-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB871DA38B0000C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-macOS" */;
+			buildConfigurationList = 3549BB871DA38B0000C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAMETests-macOS" */;
 			buildPhases = (
 				3549BB7B1DA38B0000C63030 /* Sources */,
 				3549BB7C1DA38B0000C63030 /* Frameworks */,
@@ -427,9 +427,9 @@
 			dependencies = (
 				3549BB861DA38B0000C63030 /* PBXTargetDependency */,
 			);
-			name = "{{ cookiecutter.name }}Tests-macOS";
-			productName = "{{ cookiecutter.name }}Tests-macOS";
-			productReference = 3549BB7F1DA38B0000C63030 /* {{ cookiecutter.name }}Tests-macOS.xctest */;
+			name = "FRAMEWORKNAMETests-macOS";
+			productName = "FRAMEWORKNAMETests-macOS";
+			productReference = 3549BB7F1DA38B0000C63030 /* FRAMEWORKNAMETests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -440,7 +440,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = {{ cookiecutter.github_name }};
+				ORGANIZATIONNAME = FRAMEWORKGITHUBNAME;
 				TargetAttributes = {
 					3549BB201DA389CD00C63030 = {
 						CreatedOnToolsVersion = 8.0;
@@ -479,7 +479,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3549BAFF1DA387DB00C63030 /* Build configuration list for PBXProject "{{ cookiecutter.name }}" */;
+			buildConfigurationList = 3549BAFF1DA387DB00C63030 /* Build configuration list for PBXProject "FRAMEWORKNAME" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -491,13 +491,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3549BB201DA389CD00C63030 /* {{ cookiecutter.name }}-iOS */,
-				3549BB601DA38ADB00C63030 /* {{ cookiecutter.name }}Tests-iOS */,
-				3549BB3A1DA389E800C63030 /* {{ cookiecutter.name }}-macOS */,
-				3549BB7E1DA38B0000C63030 /* {{ cookiecutter.name }}Tests-macOS */,
-				3549BB471DA389F300C63030 /* {{ cookiecutter.name }}-tvOS */,
-				3549BB6F1DA38AEF00C63030 /* {{ cookiecutter.name }}Tests-tvOS */,
-				3549BB2D1DA389DB00C63030 /* {{ cookiecutter.name }}-watchOS */,
+				3549BB201DA389CD00C63030 /* FRAMEWORKNAME-iOS */,
+				3549BB601DA38ADB00C63030 /* FRAMEWORKNAMETests-iOS */,
+				3549BB3A1DA389E800C63030 /* FRAMEWORKNAME-macOS */,
+				3549BB7E1DA38B0000C63030 /* FRAMEWORKNAMETests-macOS */,
+				3549BB471DA389F300C63030 /* FRAMEWORKNAME-tvOS */,
+				3549BB6F1DA38AEF00C63030 /* FRAMEWORKNAMETests-tvOS */,
+				3549BB2D1DA389DB00C63030 /* FRAMEWORKNAME-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -559,7 +559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B7427F1F82A82F00829B21 /* {{ cookiecutter.name }}.swift in Sources */,
+				35B7427F1F82A82F00829B21 /* FRAMEWORKNAME.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +567,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B742821F82A83000829B21 /* {{ cookiecutter.name }}.swift in Sources */,
+				35B742821F82A83000829B21 /* FRAMEWORKNAME.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,7 +575,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B742801F82A82F00829B21 /* {{ cookiecutter.name }}.swift in Sources */,
+				35B742801F82A82F00829B21 /* FRAMEWORKNAME.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,7 +583,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B742811F82A83000829B21 /* {{ cookiecutter.name }}.swift in Sources */,
+				35B742811F82A83000829B21 /* FRAMEWORKNAME.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,7 +591,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB8B1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */,
+				3549BB8B1DA38C0A00C63030 /* FRAMEWORKNAMESpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,7 +599,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB8D1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */,
+				3549BB8D1DA38C0A00C63030 /* FRAMEWORKNAMESpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +607,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB8C1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */,
+				3549BB8C1DA38C0A00C63030 /* FRAMEWORKNAMESpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,17 +616,17 @@
 /* Begin PBXTargetDependency section */
 		3549BB681DA38ADB00C63030 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3549BB201DA389CD00C63030 /* {{ cookiecutter.name }}-iOS */;
+			target = 3549BB201DA389CD00C63030 /* FRAMEWORKNAME-iOS */;
 			targetProxy = 3549BB671DA38ADB00C63030 /* PBXContainerItemProxy */;
 		};
 		3549BB771DA38AEF00C63030 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3549BB471DA389F300C63030 /* {{ cookiecutter.name }}-tvOS */;
+			target = 3549BB471DA389F300C63030 /* FRAMEWORKNAME-tvOS */;
 			targetProxy = 3549BB761DA38AEF00C63030 /* PBXContainerItemProxy */;
 		};
 		3549BB861DA38B0000C63030 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3549BB3A1DA389E800C63030 /* {{ cookiecutter.name }}-macOS */;
+			target = 3549BB3A1DA389E800C63030 /* FRAMEWORKNAME-macOS */;
 			targetProxy = 3549BB851DA38B0000C63030 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -761,8 +761,8 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAME;
+				PRODUCT_NAME = FRAMEWORKNAME;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -780,8 +780,8 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAME;
+				PRODUCT_NAME = FRAMEWORKNAME;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -798,8 +798,8 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAME;
+				PRODUCT_NAME = FRAMEWORKNAME;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -820,8 +820,8 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAME;
+				PRODUCT_NAME = FRAMEWORKNAME;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -843,8 +843,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAME;
+				PRODUCT_NAME = FRAMEWORKNAME;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -865,8 +865,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAME;
+				PRODUCT_NAME = FRAMEWORKNAME;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -883,8 +883,8 @@
 				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAME;
+				PRODUCT_NAME = FRAMEWORKNAME;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -904,8 +904,8 @@
 				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAME;
+				PRODUCT_NAME = FRAMEWORKNAME;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -924,7 +924,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAMETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -941,7 +941,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAMETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -957,7 +957,7 @@
 				);
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAMETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -976,7 +976,7 @@
 				);
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAMETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -996,7 +996,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAMETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1016,7 +1016,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.FRAMEWORKNAMETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -1025,7 +1025,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3549BAFF1DA387DB00C63030 /* Build configuration list for PBXProject "{{ cookiecutter.name }}" */ = {
+		3549BAFF1DA387DB00C63030 /* Build configuration list for PBXProject "FRAMEWORKNAME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB0B1DA387DB00C63030 /* Debug */,
@@ -1034,7 +1034,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB261DA389CD00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-iOS" */ = {
+		3549BB261DA389CD00C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAME-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB271DA389CD00C63030 /* Debug */,
@@ -1043,7 +1043,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB331DA389DB00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-watchOS" */ = {
+		3549BB331DA389DB00C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAME-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB341DA389DB00C63030 /* Debug */,
@@ -1052,7 +1052,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB401DA389E800C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-macOS" */ = {
+		3549BB401DA389E800C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAME-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB411DA389E800C63030 /* Debug */,
@@ -1061,7 +1061,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB4D1DA389F300C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-tvOS" */ = {
+		3549BB4D1DA389F300C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAME-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB4E1DA389F300C63030 /* Debug */,
@@ -1070,7 +1070,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB691DA38ADB00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-iOS" */ = {
+		3549BB691DA38ADB00C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAMETests-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB6A1DA38ADB00C63030 /* Debug */,
@@ -1079,7 +1079,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB781DA38AEF00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-tvOS" */ = {
+		3549BB781DA38AEF00C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAMETests-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB791DA38AEF00C63030 /* Debug */,
@@ -1088,7 +1088,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB871DA38B0000C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-macOS" */ = {
+		3549BB871DA38B0000C63030 /* Build configuration list for PBXNativeTarget "FRAMEWORKNAMETests-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB881DA38B0000C63030 /* Debug */,

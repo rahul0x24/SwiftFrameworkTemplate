@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-               BuildableName = "{{ cookiecutter.name }}.framework"
-               BlueprintName = "{{ cookiecutter.name }}-macOS"
-               ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+               BlueprintIdentifier = "3549BB471DA389F300C63030"
+               BuildableName = "FRAMEWORKNAME.framework"
+               BlueprintName = "FRAMEWORKNAME-tvOS"
+               ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,20 +33,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3549BB7E1DA38B0000C63030"
-               BuildableName = "{{ cookiecutter.name }}Tests-macOS.xctest"
-               BlueprintName = "{{ cookiecutter.name }}Tests-macOS"
-               ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+               BlueprintIdentifier = "3549BB6F1DA38AEF00C63030"
+               BuildableName = "FRAMEWORKNAMETests-tvOS.xctest"
+               BlueprintName = "FRAMEWORKNAMETests-tvOS"
+               ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-macOS"
-            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+            BlueprintIdentifier = "3549BB471DA389F300C63030"
+            BuildableName = "FRAMEWORKNAME.framework"
+            BlueprintName = "FRAMEWORKNAME-tvOS"
+            ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,10 +66,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-macOS"
-            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+            BlueprintIdentifier = "3549BB471DA389F300C63030"
+            BuildableName = "FRAMEWORKNAME.framework"
+            BlueprintName = "FRAMEWORKNAME-tvOS"
+            ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,10 +84,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "{{ cookiecutter.name }}.framework"
-            BlueprintName = "{{ cookiecutter.name }}-macOS"
-            ReferencedContainer = "container:{{ cookiecutter.name }}.xcodeproj">
+            BlueprintIdentifier = "3549BB471DA389F300C63030"
+            BuildableName = "FRAMEWORKNAME.framework"
+            BlueprintName = "FRAMEWORKNAME-tvOS"
+            ReferencedContainer = "container:FRAMEWORKNAME.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

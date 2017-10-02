@@ -1,13 +1,13 @@
 ## {{ cookiecutter.name }}
 
 [![Platforms](https://img.shields.io/cocoapods/p/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
-[![License](https://img.shields.io/cocoapods/l/{{ cookiecutter.name }}.svg)](https://raw.githubusercontent.com/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/master/LICENSE)
+[![License](https://img.shields.io/cocoapods/l/{{ cookiecutter.name }}.svg)](https://raw.githubusercontent.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/master/LICENSE)
 
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
 
-[![Travis](https://img.shields.io/travis/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/master.svg)](https://travis-ci.org/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/branches)
+[![Travis](https://img.shields.io/travis/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/master.svg)](https://travis-ci.org/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/branches)
 [![JetpackSwift](https://img.shields.io/badge/JetpackSwift-framework-red.svg)](http://github.com/JetpackSwift/Framework)
 
 {{ cookiecutter.summary }}
@@ -20,7 +20,7 @@
 ## Requirements
 
 - iOS 8.0+ / Mac OS X 10.10+ / tvOS 9.0+ / watchOS 2.0+
-- Xcode 8.0+
+- Xcode 9.0+
 
 ## Installation
 
@@ -32,8 +32,6 @@
 $ gem install cocoapods
 ```
 
-> CocoaPods 1.1.0+ is required to build {{ cookiecutter.name }} {{ cookiecutter.version }}+.
-
 To integrate {{ cookiecutter.name }} into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
@@ -41,7 +39,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod '{{ cookiecutter.name }}', '~> {{ cookiecutter.version }}'
+pod '{{ cookiecutter.name }}', '~> 0.0.1'
 ```
 
 Then, run the following command:
@@ -64,7 +62,7 @@ $ brew install carthage
 To integrate {{ cookiecutter.name }} into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "{{ cookiecutter.name }}/{{ cookiecutter.name }}" ~> {{ cookiecutter.version }}
+github "{{ cookiecutter.name }}/{{ cookiecutter.name }}" ~> 0.0.1
 ```
 ### Swift Package Manager
 
@@ -76,7 +74,7 @@ import PackageDescription
 let package = Package(
     name: "Hello{{ cookiecutter.name }}",
     dependencies: [
-        .Package(url: "https://github.com/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}.git", "{{ cookiecutter.version }}")
+        .Package(url: "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}.git", "0.0.1")
     ]
 )
 ```
@@ -96,7 +94,7 @@ $ git init
 - Add {{ cookiecutter.name }} as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
 
 ```bash
-$ git submodule add https://github.com/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}.git
+$ git submodule add https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}.git
 $ git submodule update --init --recursive
 ```
 
@@ -120,7 +118,7 @@ $ git submodule update --init --recursive
 
 #### Embeded Binaries
 
-- Download the latest release from https://github.com/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/releases
+- Download the latest release from https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/releases
 - Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
 - In the tab bar at the top of that window, open the "General" panel.
 - Click on the `+` button under the "Embedded Binaries" section.
@@ -131,4 +129,4 @@ $ git submodule update --init --recursive
 
 ## License
 
-{{ cookiecutter.name }} is released under the MIT license. See [LICENSE](https://github.com/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/blob/master/LICENSE) for details.
+{{ cookiecutter.name }} is released under the MIT license. See [LICENSE](https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/blob/master/LICENSE) for details.

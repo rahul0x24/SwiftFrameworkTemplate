@@ -4,8 +4,7 @@
     "bundle_identifier" : "me.rahulkatariya",
     "full_name": "Rahul Katariya",
     "email": "rahulkatariya@me.com",
-    "organization_name" : "cookiecutter-swift",
+    "github_name" : "JetpackSwift",
     "homepage" : "http://rahulkatariya.me",
-    "version": "0.0.1",
     "twitter": "rahulkatariya91"
 }
