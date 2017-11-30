@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode9
+osx_image: xcode9.1
 branches:
   only:
   - develop
@@ -19,7 +19,7 @@ env:
   - TVOS_FRAMEWORK_SCHEME="{{ cookiecutter.name }}-tvOS"
   - WATCHOS_FRAMEWORK_SCHEME="{{ cookiecutter.name }}-watchOS"
   matrix:
-    - DESTINATION="OS=11.0,name=iPhone X"                   SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
+    - DESTINATION="OS=11.1,name=iPhone X"                   SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
     - DESTINATION="OS=10.3.1,name=iPhone 7 Plus"            SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
     - DESTINATION="OS=9.0,name=iPhone 6"                    SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
     - DESTINATION="OS=8.1,name=iPhone 4s"                   SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
