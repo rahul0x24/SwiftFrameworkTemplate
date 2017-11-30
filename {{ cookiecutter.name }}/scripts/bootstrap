@@ -1,1 +1,1 @@
-carthage update --no-use-binaries
+carthage update --no-use-binaries --cache-builds --platform $PLATFORM
