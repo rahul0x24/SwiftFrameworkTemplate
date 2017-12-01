@@ -1,1 +1,1 @@
-carthage update --no-use-binaries --cache-builds --platform $PLATFORM
+carthage update --no-use-binaries --cache-builds --platform "${PLATFORM:=all}"
