@@ -1,0 +1,28 @@
+version: 2
+jobs:
+  build:
+    macos:
+      xcode: "9.0"
+    branches:
+      only:
+        - develop
+        - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
+    environment:
+      - WORKSPACE=Framework.xcworkspace
+      - IOS_FRAMEWORK_SCHEME=Framework-iOS
+      - OSX_FRAMEWORK_SCHEME=Framework-macOS
+      - TVOS_FRAMEWORK_SCHEME=Framework-tvOS
+      - WATCHOS_FRAMEWORK_SCHEME=Framework-watchOS
+    steps:
+      - checkout
+      - run: git submodule update --init --recursive
+      - run: brew install ruby && gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+      - run: brew update && brew outdated carthage || brew upgrade carthage
+      - run: brew install cookiecutter && cookiecutter -c develop --no-input https://github.com/JetpackSwift/FrameworkTemplate
+      - run:
+          command: |
+            cd Framework
+            set -o pipefail
+            xcodebuild -version
+            xcodebuild -showsdks
+            xcodebuild -workspace "$WORKSPACE" -scheme "$IOS_FRAMEWORK_SCHEME" -destination "OS=11.0,name=iPhone X" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty -c;
