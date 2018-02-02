@@ -1,13 +1,12 @@
 language: objective-c
-osx_image: xcode9
+osx_image: xcode9.2
 branches:
   only:
   - master
+  - develop
   - "/^X\\d+(.\\d+)?\\/S\\d+(.\\d+)?$/"
 before_install:
-- gem install cocoapods --no-rdoc --no-ri --no-document --quiet
 - brew update
-- brew outdated carthage || brew upgrade carthage
 - brew install cookiecutter
 - cookiecutter -c develop --no-input https://github.com/JetpackSwift/FrameworkTemplate
 env:
@@ -20,10 +19,10 @@ env:
   - TVOS_FRAMEWORK_SCHEME="Framework-tvOS"
   - WATCHOS_FRAMEWORK_SCHEME="Framework-watchOS"
   matrix:
-  - DESTINATION="OS=11.0,name=iPhone X"                   SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
+  - DESTINATION="OS=11.2,name=iPhone X"                   SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
   - DESTINATION="OS=10.3.1,name=iPhone 7 Plus"            SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
   - DESTINATION="OS=9.0,name=iPhone 6"                    SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
-  - DESTINATION="OS=8.1,name=iPhone 4s"                   SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
+  - DESTINATION="OS=8.1,name=iPhone 5s"                   SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
   - DESTINATION="arch=x86_64"                             SCHEME="$OSX_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
   - DESTINATION="OS=11.0,name=Apple TV 1080p"             SCHEME="$TVOS_FRAMEWORK_SCHEME"    RUN_TESTS="YES"
   - DESTINATION="OS=10.2,name=Apple TV 1080p"             SCHEME="$TVOS_FRAMEWORK_SCHEME"    RUN_TESTS="YES"
@@ -50,7 +49,8 @@ script:
   fi
 jobs:
   include:
-  - script: pod lib lint --verbose --allow-warnings
+  - stage: Pod lib lint
+    script: pod lib lint --verbose --allow-warnings
   - stage: deploy
     before_deploy: carthage build --no-skip-current && carthage archive Framework
     deploy:
