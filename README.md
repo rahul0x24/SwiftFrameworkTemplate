@@ -14,7 +14,7 @@ A template for new Framework project.
 [![Join the chat at https://gitter.im/JetpackSwift/Restofire](https://badges.gitter.im/JetpackSwift/FrameworkTemplate.svg)](https://gitter.im/JetpackSwift/FrameworkTemplate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Twitter](https://img.shields.io/twitter/follow/rahulkatariya91.svg?style=social&label=Follow)](https://twitter.com/rahulkatariya91)
 
-![Template](http://i.imgur.com/f6elUWD.png)
+![Template](Assets/Restofire.png)
 
 ## What's in the template?
 
