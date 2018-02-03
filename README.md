@@ -22,8 +22,10 @@ A template for new Framework project.
 - Xcode 9.0
 - Swift 4.0
 - Dependency Managers - CocoaPods / Carthage / Swift Package Manager
-- TravisCI
 - Readme
+- Dangerfile / Gemfile / Jazzy
+- Github Templates (CODE_OF_CONDUCT, CONTRIBUTING, ISSUE_TEMPLATE, PULL_REQUEST_TEMPLATE)
+- TravisCI
 - MIT LICENSE
 - Testing Dependencies - Quick and Nimble
 
