@@ -7,6 +7,7 @@ branches:
   - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
 cache:
   directories:
+    - $HOME/Library/Caches/org.carthage.CarthageKit/dependencies
     - Carthage
     - vendor/bundle
 
@@ -17,13 +18,13 @@ before_install:
 
 env:
   global:
-  - LC_CTYPE=en_US.UTF-8
-  - LANG=en_US.UTF-8
-  - WORKSPACE=FRAMEWORKNAME.xcworkspace
-  - IOS_FRAMEWORK_SCHEME="FRAMEWORKNAME-iOS"
-  - OSX_FRAMEWORK_SCHEME="FRAMEWORKNAME-macOS"
-  - TVOS_FRAMEWORK_SCHEME="FRAMEWORKNAME-tvOS"
-  - WATCHOS_FRAMEWORK_SCHEME="FRAMEWORKNAME-watchOS"
+    - LC_CTYPE=en_US.UTF-8
+    - LANG=en_US.UTF-8
+    - WORKSPACE=FRAMEWORKNAME.xcworkspace
+    - IOS_FRAMEWORK_SCHEME="FRAMEWORKNAME-iOS"
+    - OSX_FRAMEWORK_SCHEME="FRAMEWORKNAME-macOS"
+    - TVOS_FRAMEWORK_SCHEME="FRAMEWORKNAME-tvOS"
+    - WATCHOS_FRAMEWORK_SCHEME="FRAMEWORKNAME-watchOS"
   matrix:
     - DESTINATION="OS=11.2,name=iPhone X"                   SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
     - DESTINATION="OS=10.3.1,name=iPhone 7 Plus"            SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"
@@ -67,11 +68,13 @@ jobs:
       script: bundle exec pod lib lint --verbose --allow-warnings
     - stage: Deploy
       script: skip
-      before_deploy: carthage build --no-skip-current && carthage archive FRAMEWORKNAME
+      before_deploy:
+        - carthage build --no-skip-current --cache-builds
+        - carthage archive FRAMEWORKNAME
       deploy:
         - provider: releases
           api_key:
-            secure:
+            secure: 
           file:
             - FRAMEWORKNAME.framework.zip
           skip_cleanup: true
@@ -80,6 +83,6 @@ jobs:
             repo: FRAMEWORKGITHUBNAME/FRAMEWORKNAME
             tags: true
         - provider: script
-          script: pod trunk push
+          script: bundle exec pod trunk push
           on:
             tags: true
