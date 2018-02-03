@@ -7,7 +7,7 @@ A template for new Framework project.
 
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/badge/Cocoapods-compatible-4BC51D.svg?style=flat)](https://github.com/Cocoapods/Cocoapods)
+[![CocoaPods compatible](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat)](https://github.com/CocoaPods/CocoaPods)
 
 [![Travis](https://img.shields.io/travis/JetpackSwift/FrameworkTemplate/master.svg)](https://travis-ci.org/JetpackSwift/FrameworkTemplate/branches)
 
@@ -21,7 +21,7 @@ A template for new Framework project.
 - Deployment Targets - iOS 8.0 / Mac OS X 10.10 / tvOS 9.0 / watchOS 2.0
 - Xcode 9.0
 - Swift 4.0
-- Dependency Managers - Cocoapods / Carthage / Swift Package Manager
+- Dependency Managers - CocoaPods / Carthage / Swift Package Manager
 - TravisCI
 - Readme
 - MIT LICENSE

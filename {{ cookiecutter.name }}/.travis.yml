@@ -1,9 +1,14 @@
 language: objective-c
-osx_image: xcode9
+osx_image: xcode9.2
 branches:
   only:
+  - master
   - develop
   - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
+cache:
+  directories:
+    - Carthage
+
 before_install:
   - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
   - brew update
@@ -32,7 +37,7 @@ env:
     - DESTINATION="OS=2.0,name=Apple Watch - 38mm"          SCHEME="$WATCHOS_FRAMEWORK_SCHEME" RUN_TESTS="NO"  PLATFORM="watchOS"
 
 before_script:
-  - sh scripts/bootstrap
+  - carthage bootstrap --verbose --no-use-binaries --cache-builds --platform $PLATFORM
 
 script:
   - set -o pipefail
@@ -61,7 +66,7 @@ jobs:
       deploy:
         - provider: releases
           api_key:
-            secure: 
+            secure:
           file:
             - {{ cookiecutter.name }}.framework.zip
           skip_cleanup: true
