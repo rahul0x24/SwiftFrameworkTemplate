@@ -11,6 +11,21 @@
       location = "group:scripts">
    </FileRef>
    <FileRef
+      location = "group:CODE_OF_CONDUCT.md">
+   </FileRef>
+   <FileRef
+      location = "group:CONTRIBUTING.md">
+   </FileRef>
+   <FileRef
+      location = "group:Dangerfile">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:Readme.md">
+   </FileRef>
+   <FileRef
       location = "group:Cartfile">
    </FileRef>
    <FileRef
@@ -20,7 +35,10 @@
       location = "group:Cartfile.resolved">
    </FileRef>
    <FileRef
-      location = "group:FRAMEWORKNAME.podspec">
+      location = "group:Gemfile">
+   </FileRef>
+   <FileRef
+      location = "group:Gemfile.lock">
    </FileRef>
    <FileRef
       location = "group:Package.swift">
@@ -29,9 +47,6 @@
       location = "group:Package.resolved">
    </FileRef>
    <FileRef
-      location = "group:LICENSE">
-   </FileRef>
-   <FileRef
-      location = "group:Readme.md">
+      location = "group:FRAMEWORKNAME.podspec">
    </FileRef>
 </Workspace>
