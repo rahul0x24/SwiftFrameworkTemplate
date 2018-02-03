@@ -1,0 +1,8 @@
+author: FRAMEWORKFULLNAME
+author_url: https://twitter.com/FRAMEWORKTWITTER
+github_url: https://github.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME
+root_url: https://FRAMEWORKGITHUBNAME.github.io/FRAMEWORKNAME/
+module: FRAMEWORKNAME
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'FRAMEWORKNAME.xcworkspace', -scheme, 'FRAMEWORKNAME-iOS']

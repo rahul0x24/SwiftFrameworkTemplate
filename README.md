@@ -45,7 +45,18 @@ However, if you want to use the most recent template you should still run the fu
 ## Built With FrameworkTemplate
 
 - [Restofire](http://github.com/Restofire/Restofire)
-- [RestofireGloss](http://github.com/Restofire/RestofireGloss)
+
+## Credits
+
+*Some of the ideas and wording for the statements above were based on work by the [Alamofire](https://github.com/Alamofire/Alamofire) and [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) communities. We commend them for their efforts.*
+
+## Contributing
+
+Issues and pull requests are welcome!
+
+## Author
+
+Rahul Katariya [@rahulkatariya91](https://twitter.com/rahulkatariya91)
 
 ## License
 

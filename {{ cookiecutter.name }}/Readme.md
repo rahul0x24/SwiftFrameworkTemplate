@@ -1,4 +1,4 @@
-## {{ cookiecutter.name }}
+# {{ cookiecutter.name }}
 
 [![Platforms](https://img.shields.io/cocoapods/p/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
 [![License](https://img.shields.io/cocoapods/l/{{ cookiecutter.name }}.svg)](https://raw.githubusercontent.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/master/LICENSE)
@@ -126,6 +126,14 @@ $ git submodule update --init --recursive
 - And that's it!
 
 ## Usage
+
+## Contributing
+
+Issues and pull requests are welcome!
+
+## Author
+
+{{ cookiecutter.full_name }} [@{{ cookiecutter.twitter }}](https://twitter.com/{{ cookiecutter.twitter }})
 
 ## License
 

@@ -1,0 +1,8 @@
+author: {{ cookiecutter.full_name }}
+author_url: https://twitter.com/{{ cookiecutter.twitter }}
+github_url: https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}
+root_url: https://{{ cookiecutter.github_name }}.github.io/{{ cookiecutter.name }}/
+module: {{ cookiecutter.name }}
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, '{{ cookiecutter.name }}.xcworkspace', -scheme, '{{ cookiecutter.name }}-iOS']

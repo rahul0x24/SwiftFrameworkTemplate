@@ -1,1 +1,1 @@
-carthage update --no-use-binaries
+carthage bootstrap --no-use-binaries --cache-builds

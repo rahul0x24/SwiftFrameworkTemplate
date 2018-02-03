@@ -1,4 +1,4 @@
-## FRAMEWORKNAME
+# FRAMEWORKNAME
 
 [![Platforms](https://img.shields.io/cocoapods/p/FRAMEWORKNAME.svg)](https://cocoapods.org/pods/FRAMEWORKNAME)
 [![License](https://img.shields.io/cocoapods/l/FRAMEWORKNAME.svg)](https://raw.githubusercontent.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME/master/LICENSE)
@@ -126,6 +126,14 @@ $ git submodule update --init --recursive
 - And that's it!
 
 ## Usage
+
+## Contributing
+
+Issues and pull requests are welcome!
+
+## Author
+
+FRAMEWORKFULLNAME [@FRAMEWORKTWITTER](https://twitter.com/FRAMEWORKTWITTER)
 
 ## License
 

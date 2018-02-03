@@ -8,9 +8,10 @@ branches:
 cache:
   directories:
     - Carthage
+    - vendor/bundle
 
 before_install:
-  - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+  - bundle install --path vendor/bundle
   - brew update
   - brew outdated carthage || brew upgrade carthage
 
@@ -37,7 +38,7 @@ env:
     - DESTINATION="OS=2.0,name=Apple Watch - 38mm"          SCHEME="$WATCHOS_FRAMEWORK_SCHEME" RUN_TESTS="NO"
 
 before_script:
-  - carthage bootstrap --verbose --no-use-binaries --cache-builds
+  - sh scripts/bootstrap
 
 script:
   - set -o pipefail
@@ -60,8 +61,12 @@ script:
 
 jobs:
   include:
-    - script: pod lib lint --verbose --allow-warnings
-    - stage: deploy
+    - stage: Danger
+      script: bundle exec danger
+    - stage: Pod lib lint
+      script: bundle exec pod lib lint --verbose --allow-warnings
+    - stage: Deploy
+      script: skip
       before_deploy: carthage build --no-skip-current && carthage archive FRAMEWORKNAME
       deploy:
         - provider: releases

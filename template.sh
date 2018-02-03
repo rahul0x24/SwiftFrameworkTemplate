@@ -21,3 +21,4 @@ rm -rf FRAMEWORKNAME
 mv FRAMEWORKNAME.bak FRAMEWORKNAME
 
 rm -rf "{{ cookiecutter.name }}/Carthage"
+mv "{{ cookiecutter.name }}/.gitignore" "{{ cookiecutter.name }}/_gitignore"
