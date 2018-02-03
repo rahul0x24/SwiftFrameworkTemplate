@@ -1,4 +1,4 @@
-{{ cookiecutter.github_name }}/{{ cookiecutter.name }}# {{ cookiecutter.name }}
+# {{ cookiecutter.name }}
 
 [![Platforms](https://img.shields.io/cocoapods/p/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
 [![License](https://img.shields.io/cocoapods/l/{{ cookiecutter.name }}.svg)](https://raw.githubusercontent.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/master/LICENSE)
