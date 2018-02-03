@@ -1,4 +1,4 @@
-# FRAMEWORKNAME
+FRAMEWORKGITHUBNAME/FRAMEWORKNAME# FRAMEWORKNAME
 
 [![Platforms](https://img.shields.io/cocoapods/p/FRAMEWORKNAME.svg)](https://cocoapods.org/pods/FRAMEWORKNAME)
 [![License](https://img.shields.io/cocoapods/l/FRAMEWORKNAME.svg)](https://raw.githubusercontent.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME/master/LICENSE)
@@ -34,14 +34,14 @@ FRAMEWORKSUMMARY
 $ gem install cocoapods
 ```
 
-To integrate Restofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate FRAMEWORKNAME into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'Restofire', '~> 3.0.0'
+pod 'FRAMEWORKNAME', '~> 3.0.0'
 ```
 
 Then, run the following command:
@@ -64,10 +64,10 @@ $ brew update
 $ brew install carthage
 ```
 
-To integrate Restofire into your Xcode project using Carthage, specify it in your `Cartfile`:
+To integrate FRAMEWORKNAME into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "Restofire/Restofire" ~> 3.0.0
+github "FRAMEWORKGITHUBNAME/FRAMEWORKNAME" ~> 3.0.0
 ```
 
 </details>
@@ -75,15 +75,15 @@ github "Restofire/Restofire" ~> 3.0.0
 <details>
   <summary><strong>Swift Package Manager</strong></summary>
 
-To use Restofire as a [Swift Package Manager](https://swift.org/package-manager/) package just add the following in your Package.swift file.
+To use FRAMEWORKNAME as a [Swift Package Manager](https://swift.org/package-manager/) package just add the following in your Package.swift file.
 
 ``` swift
 import PackageDescription
 
 let package = Package(
-    name: "HelloRestofire",
+    name: "HelloFRAMEWORKNAME",
     dependencies: [
-        .Package(url: "https://github.com/Restofire/Restofire.git", .upToNextMajor(from: "3.0.0"))
+        .Package(url: "https://github.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME.git", .upToNextMajor(from: "3.0.0"))
     ]
 )
 ```
@@ -91,7 +91,7 @@ let package = Package(
 
 ### Manually
 
-If you prefer not to use either of the aforementioned dependency managers, you can integrate Restofire into your project manually.
+If you prefer not to use either of the aforementioned dependency managers, you can integrate FRAMEWORKNAME into your project manually.
 
 <details>
   <summary><strong>Git Submodules</strong></summary><p>
@@ -102,41 +102,41 @@ If you prefer not to use either of the aforementioned dependency managers, you c
 $ git init
 ```
 
-- Add Restofire as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
+- Add FRAMEWORKNAME as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
 
 ```bash
-$ git submodule add https://github.com/Restofire/Restofire.git
+$ git submodule add https://github.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME.git
 $ git submodule update --init --recursive
 ```
 
-- Open the new `Restofire` folder, and drag the `Restofire.xcodeproj` into the Project Navigator of your application's Xcode project.
+- Open the new `FRAMEWORKNAME` folder, and drag the `FRAMEWORKNAME.xcodeproj` into the Project Navigator of your application's Xcode project.
 
     > It should appear nested underneath your application's blue project icon. Whether it is above or below all the other Xcode groups does not matter.
 
-- Select the `Restofire.xcodeproj` in the Project Navigator and verify the deployment target matches that of your application target.
+- Select the `FRAMEWORKNAME.xcodeproj` in the Project Navigator and verify the deployment target matches that of your application target.
 - Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
 - In the tab bar at the top of that window, open the "General" panel.
 - Click on the `+` button under the "Embedded Binaries" section.
-- You will see two different `Restofire.xcodeproj` folders each with two different versions of the `Restofire.framework` nested inside a `Products` folder.
+- You will see two different `FRAMEWORKNAME.xcodeproj` folders each with two different versions of the `FRAMEWORKNAME.framework` nested inside a `Products` folder.
 
     > It does not matter which `Products` folder you choose from.
 
-- Select the `Restofire.framework` & `Alamofire.framework`.
+- Select the `FRAMEWORKNAME.framework`.
 
 - And that's it!
 
-> The `Restofire.framework` is automagically added as a target dependency, linked framework and embedded framework in a copy files build phase which is all you need to build on the simulator and a device.
+> The `FRAMEWORKNAME.framework` is automagically added as a target dependency, linked framework and embedded framework in a copy files build phase which is all you need to build on the simulator and a device.
 
 </p></details>
 
 <details>
   <summary><strong>Embeded Binaries</strong></summary><p>
 
-- Download the latest release from https://github.com/Restofire/Restofire/releases
+- Download the latest release from https://github.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME/releases
 - Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
 - In the tab bar at the top of that window, open the "General" panel.
 - Click on the `+` button under the "Embedded Binaries" section.
-- Add the downloaded `Restofire.framework` & `Alamofire.framework`.
+- Add the downloaded `FRAMEWORKNAME.framework`.
 - And that's it!
 
 </p></details>
