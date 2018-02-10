@@ -48,6 +48,9 @@ xcuserdata/
 *.moved-aside
 *.xcuserstate
 
+## Bundler
+vendor/
+
 ## Obj-C/Swift specific
 *.hmap
 *.ipa

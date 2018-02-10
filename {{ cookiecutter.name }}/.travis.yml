@@ -67,7 +67,7 @@ jobs:
       script: bundle exec danger
     - stage: Pod lib lint
       script: bundle exec pod lib lint --verbose --allow-warnings
-    - stage: Deploy
+    - stage: Deploy Github
       script: skip
       before_deploy:
         - carthage build --no-skip-current --cache-builds
@@ -83,7 +83,11 @@ jobs:
           on:
             repo: {{ cookiecutter.github_name }}/{{ cookiecutter.name }}
             tags: true
+    - stage: Deploy Cocoapods
+      script: skip
+      deploy:
         - provider: script
           script: bundle exec pod trunk push
+          skip_cleanup: true
           on:
             tags: true

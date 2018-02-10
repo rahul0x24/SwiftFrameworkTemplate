@@ -11,7 +11,7 @@ A template for new Framework project.
 
 [![Travis](https://img.shields.io/travis/JetpackSwift/FrameworkTemplate/master.svg)](https://travis-ci.org/JetpackSwift/FrameworkTemplate/branches)
 
-[![Join the chat at https://gitter.im/JetpackSwift/Restofire](https://badges.gitter.im/JetpackSwift/FrameworkTemplate.svg)](https://gitter.im/JetpackSwift/FrameworkTemplate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/JetpackSwift/FrameworkTemplate](https://badges.gitter.im/JetpackSwift/FrameworkTemplate.svg)](https://gitter.im/JetpackSwift/FrameworkTemplate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Twitter](https://img.shields.io/twitter/follow/rahulkatariya91.svg?style=social&label=Follow)](https://twitter.com/rahulkatariya91)
 
 ![Template](Assets/Restofire.png)

@@ -8,7 +8,7 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/FRAMEWORKNAME.svg)](https://cocoapods.org/pods/FRAMEWORKNAME)
 
 [![Travis](https://img.shields.io/travis/FRAMEWORKGITHUBNAME/FRAMEWORKNAME/master.svg)](https://travis-ci.org/FRAMEWORKGITHUBNAME/FRAMEWORKNAME/branches)
-[![JetpackSwift](https://img.shields.io/badge/JetpackSwift-framework-red.svg)](http://github.com/JetpackSwift/Framework)
+[![JetpackSwift](https://img.shields.io/badge/JetpackSwift-framework-red.svg)](http://github.com/JetpackSwift/FrameworkTemplate)
 
 FRAMEWORKSUMMARY
 
