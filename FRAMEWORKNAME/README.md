@@ -8,7 +8,7 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/FRAMEWORKNAME.svg)](https://cocoapods.org/pods/FRAMEWORKNAME)
 
 [![Travis](https://img.shields.io/travis/FRAMEWORKGITHUBNAME/FRAMEWORKNAME/master.svg)](https://travis-ci.org/FRAMEWORKGITHUBNAME/FRAMEWORKNAME/branches)
-[![JetpackSwift](https://img.shields.io/badge/JetpackSwift-framework-red.svg)](http://github.com/JetpackSwift/FrameworkTemplate)
+[![FrameworkTemplate](https://img.shields.io/badge/SwiftFramework-Template-red.svg)](http://github.com/RahulKatariya/FrameworkTemplate)
 
 FRAMEWORKSUMMARY
 
@@ -41,7 +41,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'FRAMEWORKNAME', '~> 3.0.0'
+pod 'FRAMEWORKNAME', '~> 0.0.1'
 ```
 
 Then, run the following command:
@@ -67,7 +67,7 @@ $ brew install carthage
 To integrate FRAMEWORKNAME into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "FRAMEWORKGITHUBNAME/FRAMEWORKNAME" ~> 3.0.0
+github "FRAMEWORKGITHUBNAME/FRAMEWORKNAME" ~> 0.0.1
 ```
 
 </details>
@@ -83,7 +83,7 @@ import PackageDescription
 let package = Package(
     name: "HelloFRAMEWORKNAME",
     dependencies: [
-        .Package(url: "https://github.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME.git", .upToNextMajor(from: "3.0.0"))
+        .Package(url: "https://github.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME.git", .upToNextMajor(from: "0.0.1"))
     ]
 )
 ```
