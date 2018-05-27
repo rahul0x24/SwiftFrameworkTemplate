@@ -36,7 +36,7 @@ A template for new Framework project.
    macOS).
 2. [Install cookiecutter][cookiecutter] (`brew install cookiecutter` on
    macOS).
-3. Run `cookiecutter https://github.com/JetpackSwift/FrameworkTemplate`
+3. Run `cookiecutter https://github.com/RahulKatariya/FrameworkTemplate`
 
 [carthage]: https://github.com/Carthage/Carthage
 [cookiecutter]: http://cookiecutter.readthedocs.org/en/latest/installation.html
@@ -62,4 +62,4 @@ Rahul Katariya [@rahulkatariya91](https://twitter.com/rahulkatariya91)
 
 ## License
 
-FrameworkTemplate is released under the MIT license. See [LICENSE](https://github.com/cookiecutter-swift/Framework/blob/master/LICENSE) for details.
+FrameworkTemplate is released under the MIT license. See [LICENSE](https://github.com/RahulKatariya/FrameworkTemplate/blob/master/LICENSE) for details.

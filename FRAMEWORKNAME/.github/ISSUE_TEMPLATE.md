@@ -18,7 +18,7 @@
 
 ## What happened instead?
 
-ℹ Please replace this with of what happened instead.
+ℹ Please replace this with what happened instead.
 
 ## FRAMEWORKNAME Environment
 
