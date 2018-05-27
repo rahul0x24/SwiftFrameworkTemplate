@@ -19,8 +19,8 @@ A template for new Framework project.
 ## What's in the template?
 
 - Deployment Targets - iOS 8.0 / Mac OS X 10.10 / tvOS 9.0 / watchOS 2.0
-- Xcode 9.0
-- Swift 4.0
+- Xcode 9.3
+- Swift 4.1
 - Dependency Managers - CocoaPods / Carthage / Swift Package Manager
 - Readme
 - Dangerfile / Gemfile / Jazzy
