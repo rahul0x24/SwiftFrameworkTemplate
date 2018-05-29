@@ -78,12 +78,17 @@ github "FRAMEWORKGITHUBNAME/FRAMEWORKNAME" ~> 0.0.1
 To use FRAMEWORKNAME as a [Swift Package Manager](https://swift.org/package-manager/) package just add the following in your Package.swift file.
 
 ``` swift
+// swift-tools-version:4.1
+
 import PackageDescription
 
 let package = Package(
     name: "HelloFRAMEWORKNAME",
     dependencies: [
-        .Package(url: "https://github.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME.git", .upToNextMajor(from: "0.0.1"))
+        .package(url: "https://github.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME.git", .upToNextMajor(from: "0.0.1"))
+    ],
+    targets: [
+        .target(name: "HelloFRAMEWORKNAME", dependencies: ["FRAMEWORKNAME"])
     ]
 )
 ```

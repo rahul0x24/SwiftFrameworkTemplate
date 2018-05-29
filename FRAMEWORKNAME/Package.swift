@@ -1,3 +1,4 @@
+// swift-tools-version:4.1
 //
 //  FRAMEWORKNAME.swift
 //  FRAMEWORKNAME
@@ -10,6 +11,20 @@ import PackageDescription
 
 let package = Package(
     name: "FRAMEWORKNAME",
+    products: [
+        .library(
+            name: "FRAMEWORKNAME",
+            targets: ["FRAMEWORKNAME"]),
+        ],
     dependencies: [],
-    exclude: ["Tests"]
+    targets: [
+        .target(
+            name: "FRAMEWORKNAME",
+            dependencies: [],
+            path: "Sources"),
+        .testTarget(
+            name: "FRAMEWORKNAMETests",
+            dependencies: ["FRAMEWORKNAME"],
+            path: "Tests")
+    ]
 )
