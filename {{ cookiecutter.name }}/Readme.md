@@ -78,12 +78,17 @@ github "{{ cookiecutter.github_name }}/{{ cookiecutter.name }}" ~> 0.0.1
 To use {{ cookiecutter.name }} as a [Swift Package Manager](https://swift.org/package-manager/) package just add the following in your Package.swift file.
 
 ``` swift
+// swift-tools-version:4.1
+
 import PackageDescription
 
 let package = Package(
     name: "Hello{{ cookiecutter.name }}",
     dependencies: [
-        .Package(url: "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}.git", .upToNextMajor(from: "0.0.1"))
+        .package(url: "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}.git", .upToNextMajor(from: "0.0.1"))
+    ],
+    targets: [
+        .target(name: "Hello{{ cookiecutter.name }}", dependencies: ["{{ cookiecutter.name }}"])
     ]
 )
 ```

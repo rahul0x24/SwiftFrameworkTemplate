@@ -1,3 +1,4 @@
+// swift-tools-version:4.1
 //
 //  {{ cookiecutter.name }}.swift
 //  {{ cookiecutter.name }}
@@ -10,6 +11,20 @@ import PackageDescription
 
 let package = Package(
     name: "{{ cookiecutter.name }}",
+    products: [
+        .library(
+            name: "{{ cookiecutter.name }}",
+            targets: ["{{ cookiecutter.name }}"]),
+        ],
     dependencies: [],
-    exclude: ["Tests"]
+    targets: [
+        .target(
+            name: "{{ cookiecutter.name }}",
+            dependencies: [],
+            path: "Sources"),
+        .testTarget(
+            name: "{{ cookiecutter.name }}Tests",
+            dependencies: ["{{ cookiecutter.name }}"],
+            path: "Tests")
+    ]
 )
