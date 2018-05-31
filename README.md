@@ -44,6 +44,41 @@ A template for new Framework project.
 For future runs you can shorten the command to `cookiecutter FrameworkTemplate`.
 However, if you want to use the most recent template you should still run the full command above.
 
+## Additional instructions
+
+This template attempts to provide you an easy setup of your framework repository with many third-party services, however some of them require additional steps such as register and authentication. Below you can find instructions in case this is the first time you set any of these:
+
+<details>
+  <summary><strong>CocoaPods</strong></summary>
+
+If this is the first time submitting to CocoaPods a framework named like yours, you need to register your e-mail to CocoaPods system in order to receive owner access to it. You can do so using the following command:
+
+```bash
+$ pod trunk register your@email.com --description='My Mac'
+```
+
+Make sure to replace `your@email.com` by a valid email since the next step is to access a verification link that CocoaPods is going to send to that address.
+
+The register process will install a token to your machine which can be read with the following command:
+
+```bash
+$ grep -A2 'trunk.cocoapods.org' ~/.netrc
+machine trunk.cocoapods.org
+  login your@email.com
+  password ef9bb4c41a4459ba92645a85b3c9cd88
+```
+
+If you're using this template, the CocoaPods deploy commands are already in your `.travis.yml` file, so all you need now is to make sure the Travis CI machines are able to use that token. In order to do it securely, we recommend to do it by setting an environment variable and not allowing its value to be displayed in build logs.
+
+In your repository build settings on Travis, add an environment variable named `COCOAPODS_TRUNK_TOKEN` with value `ef9bb4c41a4459ba92645a85b3c9cd88` - replacing this value by the password you've obtained from `~/.netrc`
+
+References:
+
+- [Automated CocoaPod releases with CI](https://fuller.li/posts/automated-cocoapods-releases-with-ci/)
+- [Publishing to CocoaPods from Travis](https://stackoverflow.com/questions/26382002/publishing-to-cocoapods-from-travis)
+
+</details>
+
 ## Built With FrameworkTemplate
 
 - [Restofire](http://github.com/Restofire/Restofire)
