@@ -79,6 +79,38 @@ References:
 
 </details>
 
+<details>
+  <summary><strong>GitHub releases</strong></summary>
+
+In order to have the Travis CI submitting archives to the Releases tab in your framework's GitHub page, you need to adjust `.travis.yml` with your personal access token.
+
+An easy way to obtain this token is by using the `travis` gem. You can install it and obtain a token with the following command, which will prompt you with a few questions and automatically modify your `.travis.yml` file:
+
+```bash
+$ gem install travis && travis setup releases
+Detected repository as <your github username>/<your repository name>, is this correct? |yes|
+Username: <your github username>
+Password for <your github username>: ************
+File to Upload: <the file name you want to upload>
+Deploy only from <your github username>/<your repository name>? |yes|
+Encrypt API key? |yes|
+```
+
+If you're using this template, part of these questions are not necessary for you, and the changes to `.travis.yml` will be mostly unhelpful, however among the changes you'll find this:
+```bash
+          api_key:
+            secure: qtPP9xa5uU4F0TJFeYjRWISv0fdPMj6xe9TXQ/CyTXJIYwLVAZ8O1aawrE7yLY0lfKXOwV7hmgMs7sS39LudoQ6ElbT6n1tKzTNaoBRc7X2GkbZiLlXSuX+plwhvMU46evkSwNIJz1g4b5CxNdUCy4Or4eXqxyhhjv4Y4kC+TxmBC5kyrDBL6oHStiIB+VEPVjPMkml0nzb6KposkSXHTEffSyDNT4+vo+bv5QFBzUYW0l42shUmr+/biHDF6eIJjW8RePEgl0ydVhcWYedEMCulfmWgVPsJu+IkZ86M0ZPIfzlhQosMboWjcWZGv559MV6L4+cGl9ZCy4ro+Mj903yUqlm8RHELsgr/T1IpsZ2CyATWdshfnTcfEv8YgZdoNfm0qJ+77HIjPPGrFlbCfQDOlTncQWMiLAps8+iM0ijUL3mR1F79OHP+nAjdnVA+Adux/FkBRy48KJE87jNk9C6vEjP25HmXWfhI3YEBexu7Ys6W+EZeg4z/10rXFIJLMFaJJbWN/LwUmmTPpX7qIU3Rv0v+zDVwl4YvpM6UewGUuC+Db/vKSHr6o+E4n1BfolJYclFhkdzFaDockG4ijMgDLw8q4DLnF0e+eIMflLkLHKiDDNGvQWqm9UDZowQdlhhY1ig1BC+2LNzd1A/9IcRYz/oV5eHxgq3wwHT4cME=
+```
+
+Using this template, you can revert all changes created by `travis`, but save the generated base64 512 bytes secure key from the previous step before doing so, and add it to your `.travis.yml` at the corresponding spot.
+
+References:
+
+- [Adding GitHub token to Travis CI configuration](http://blog.code4hire.com/2016/06/Adding-GitHub-token-to-Travis-CI-configuration/)
+- [How to use encrypted api keys for github release deployment](https://github.com/travis-ci/travis-ci/issues/2457)
+
+</details>
+
 ## Built With FrameworkTemplate
 
 - [Restofire](http://github.com/Restofire/Restofire)
