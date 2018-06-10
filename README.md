@@ -114,6 +114,8 @@ References:
 ## Built With FrameworkTemplate
 
 - [Restofire](http://github.com/Restofire/Restofire)
+- [RxCoreLocation](http://github.com/RxSwiftCommunity/RxCoreLocation)
+- [RxCocoaNetworking](http://github.com/gobetti/RxCocoaNetworking)
 
 ## Credits
 
