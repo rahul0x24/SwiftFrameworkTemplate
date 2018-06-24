@@ -8,6 +8,7 @@ branches:
 before_install:
 - brew update
 - brew install cookiecutter
+- gem install xcpretty
 - cookiecutter -c develop --no-input https://github.com/RahulKatariya/FrameworkTemplate
 env:
   global:
