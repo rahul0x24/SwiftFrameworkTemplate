@@ -41,7 +41,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod '{{ cookiecutter.name }}', '~> {{ cookiecutter.version }}'
+pod '{{ cookiecutter.name }}', '~> 0.0.1'
 ```
 
 Then, run the following command:
@@ -67,7 +67,7 @@ $ brew install carthage
 To integrate {{ cookiecutter.name }} into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "{{ cookiecutter.github_name }}/{{ cookiecutter.name }}" ~> {{ cookiecutter.version }}
+github "{{ cookiecutter.github_name }}/{{ cookiecutter.name }}" ~> 0.0.1
 ```
 
 </details>
@@ -85,7 +85,7 @@ import PackageDescription
 let package = Package(
     name: "Hello{{ cookiecutter.name }}",
     dependencies: [
-        .package(url: "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}.git", .upToNextMajor(from: "{{ cookiecutter.version }}"))
+        .package(url: "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}.git", .upToNextMajor(from: "0.0.1"))
     ],
     targets: [
         .target(name: "Hello{{ cookiecutter.name }}", dependencies: ["{{ cookiecutter.name }}"])
