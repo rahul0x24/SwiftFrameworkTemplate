@@ -1,6 +1,7 @@
 {
     "name" : "Framework",
     "summary" : "cookiecutter bootstrap template for swift framework",
+    "version" : "0.0.1",
     "bundle_identifier" : "me.rahulkatariya",
     "full_name": "Rahul Katariya",
     "email": "rahulkatariya@me.com",

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name = 'FRAMEWORKNAME'
- s.version = '0.0.1'
+ s.version = 'FRAMEWORKVERSION'
  s.license = { :type => "MIT", :file => "LICENSE" }
  s.summary = 'FRAMEWORKSUMMARY'
  s.homepage = 'FRAMEWORKHOMEPAGE'

@@ -7,6 +7,7 @@ function replace {
 }
 replace "FRAMEWORKNAME" "{{ cookiecutter.name }}"
 replace "FRAMEWORKSUMMARY" "{{ cookiecutter.summary }}"
+replace "FRAMEWORKVERSION" "{{ cookiecutter.version }}"
 replace "FRAMEWORKBUNDLEIDENTIFIER" "{{ cookiecutter.bundle_identifier }}"
 replace "FRAMEWORKFULLNAME" "{{ cookiecutter.full_name }}"
 replace "FRAMEWORKEMAIL" "{{ cookiecutter.email }}"

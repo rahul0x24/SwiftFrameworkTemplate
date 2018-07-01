@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name = '{{ cookiecutter.name }}'
- s.version = '0.0.1'
+ s.version = '{{ cookiecutter.version }}'
  s.license = { :type => "MIT", :file => "LICENSE" }
  s.summary = '{{ cookiecutter.summary }}'
  s.homepage = '{{ cookiecutter.homepage }}'

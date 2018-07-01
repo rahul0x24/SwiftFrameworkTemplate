@@ -41,7 +41,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'FRAMEWORKNAME', '~> 0.0.1'
+pod 'FRAMEWORKNAME', '~> FRAMEWORKVERSION'
 ```
 
 Then, run the following command:
@@ -67,7 +67,7 @@ $ brew install carthage
 To integrate FRAMEWORKNAME into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "FRAMEWORKGITHUBNAME/FRAMEWORKNAME" ~> 0.0.1
+github "FRAMEWORKGITHUBNAME/FRAMEWORKNAME" ~> FRAMEWORKVERSION
 ```
 
 </details>
@@ -85,7 +85,7 @@ import PackageDescription
 let package = Package(
     name: "HelloFRAMEWORKNAME",
     dependencies: [
-        .package(url: "https://github.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME.git", .upToNextMajor(from: "0.0.1"))
+        .package(url: "https://github.com/FRAMEWORKGITHUBNAME/FRAMEWORKNAME.git", .upToNextMajor(from: "FRAMEWORKVERSION"))
     ],
     targets: [
         .target(name: "HelloFRAMEWORKNAME", dependencies: ["FRAMEWORKNAME"])
