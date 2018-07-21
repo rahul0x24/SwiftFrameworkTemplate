@@ -8,7 +8,7 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/FRAMEWORKNAME.svg)](https://cocoapods.org/pods/FRAMEWORKNAME)
 
 [![Travis](https://img.shields.io/travis/FRAMEWORKGITHUBNAME/FRAMEWORKNAME/master.svg)](https://travis-ci.org/FRAMEWORKGITHUBNAME/FRAMEWORKNAME/branches)
-[![FrameworkTemplate](https://img.shields.io/badge/SwiftFramework-Template-red.svg)](http://github.com/RahulKatariya/FrameworkTemplate)
+[![SwiftFrameworkTemplate](https://img.shields.io/badge/SwiftFramework-Template-red.svg)](http://github.com/RahulKatariya/SwiftFrameworkTemplate)
 
 FRAMEWORKSUMMARY
 

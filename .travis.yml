@@ -8,7 +8,7 @@ branches:
 before_install:
 - brew update
 - brew install cookiecutter
-- cookiecutter -c develop --no-input https://github.com/RahulKatariya/FrameworkTemplate
+- cookiecutter -c develop --no-input https://github.com/RahulKatariya/SwiftFrameworkTemplate
 env:
   global:
   - LC_CTYPE=en_US.UTF-8
@@ -63,5 +63,5 @@ jobs:
       skip_cleanup: true
       overwrite: true
       on:
-        repo: RahulKatariya/FrameworkTemplate
+        repo: RahulKatariya/SwiftFrameworkTemplate
         tags: true
