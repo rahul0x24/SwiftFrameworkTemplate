@@ -8,7 +8,7 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
 
 [![Travis](https://img.shields.io/travis/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/master.svg)](https://travis-ci.org/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}/branches)
-[![FrameworkTemplate](https://img.shields.io/badge/SwiftFramework-Template-red.svg)](http://github.com/RahulKatariya/FrameworkTemplate)
+[![SwiftFrameworkTemplate](https://img.shields.io/badge/SwiftFramework-Template-red.svg)](http://github.com/RahulKatariya/SwiftFrameworkTemplate)
 
 {{ cookiecutter.summary }}
 
