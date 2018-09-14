@@ -18,9 +18,9 @@ A template for new Swift Framework.
 
 ## What's in the template?
 
-- Deployment Targets - iOS 8.0 / Mac OS X 10.10 / tvOS 9.0 / watchOS 2.0
-- Xcode 9.3
-- Swift 4.1
+- Deployment Targets - iOS 9.0 / Mac OS X 10.10 / tvOS 9.0 / watchOS 2.0
+- Xcode 10
+- Swift 4.2
 - Dependency Managers - CocoaPods / Carthage / Swift Package Manager
 - Readme
 - Dangerfile / Gemfile / Jazzy
@@ -36,7 +36,12 @@ A template for new Swift Framework.
    macOS).
 2. [Install cookiecutter][cookiecutter] (`brew install cookiecutter` on
    macOS).
-3. Run `cookiecutter https://github.com/RahulKatariya/SwiftFrameworkTemplate`
+
+### Xcode 10
+- Run `cookiecutter -c xcode10 https://github.com/RahulKatariya/SwiftFrameworkTemplate`
+
+### Xcode 9
+- Run `cookiecutter -c xcode9 https://github.com/RahulKatariya/SwiftFrameworkTemplate`
 
 [carthage]: https://github.com/Carthage/Carthage
 [cookiecutter]: http://cookiecutter.readthedocs.org/en/latest/installation.html

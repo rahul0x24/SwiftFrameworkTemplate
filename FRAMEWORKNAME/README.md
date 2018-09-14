@@ -20,7 +20,7 @@ FRAMEWORKSUMMARY
 ## Requirements
 
 - iOS 8.0+ / Mac OS X 10.10+ / tvOS 9.0+ / watchOS 2.0+
-- Xcode 9.0+
+- Xcode 10.0+
 
 ## Installation
 
@@ -78,7 +78,7 @@ github "FRAMEWORKGITHUBNAME/FRAMEWORKNAME" ~> FRAMEWORKVERSION
 To use FRAMEWORKNAME as a [Swift Package Manager](https://swift.org/package-manager/) package just add the following in your Package.swift file.
 
 ``` swift
-// swift-tools-version:4.1
+// swift-tools-version:4.2
 
 import PackageDescription
 

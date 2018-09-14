@@ -1,4 +1,4 @@
-// swift-tools-version:4.1
+// swift-tools-version:4.2
 //
 //  {{ cookiecutter.name }}.swift
 //  {{ cookiecutter.name }}
