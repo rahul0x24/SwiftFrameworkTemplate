@@ -16,7 +16,10 @@ let package = Package(
             name: "FRAMEWORKNAME",
             targets: ["FRAMEWORKNAME"]),
         ],
-    dependencies: [],
+    dependencies: [
+        // Dependencies declare other packages that this package depends on.
+        // .package(url: /* package url */, from: "1.0.0"),
+    ],
     targets: [
         .target(
             name: "FRAMEWORKNAME",
@@ -26,5 +29,6 @@ let package = Package(
             name: "FRAMEWORKNAMETests",
             dependencies: ["FRAMEWORKNAME"],
             path: "Tests")
-    ]
+    ],
+    swiftLanguageVersions: [.v4, .v4_2]
 )
