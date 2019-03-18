@@ -14,8 +14,9 @@ let package = Package(
     products: [
         .library(
             name: "FRAMEWORKNAME",
-            targets: ["FRAMEWORKNAME"]),
-        ],
+            targets: ["FRAMEWORKNAME"]
+        ),
+    ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
@@ -24,11 +25,13 @@ let package = Package(
         .target(
             name: "FRAMEWORKNAME",
             dependencies: [],
-            path: "Sources"),
+            path: "Sources"
+        ),
         .testTarget(
             name: "FRAMEWORKNAMETests",
             dependencies: ["FRAMEWORKNAME"],
-            path: "Tests")
+            path: "Tests"
+        ),
     ],
     swiftLanguageVersions: [.v4, .v4_2]
 )

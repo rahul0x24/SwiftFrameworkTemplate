@@ -9,7 +9,5 @@
 import Foundation
 
 class {{ cookiecutter.name }} {
-    
     static let name = "{{ cookiecutter.name }}"
-    
 }

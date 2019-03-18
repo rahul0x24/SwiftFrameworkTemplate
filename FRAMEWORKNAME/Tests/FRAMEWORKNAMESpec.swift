@@ -11,15 +11,11 @@ import Nimble
 @testable import FRAMEWORKNAME
 
 class FRAMEWORKNAMESpec: QuickSpec {
-
     override func spec() {
-
         describe("FRAMEWORKNAMESpec") {
             it("works") {
                 expect(FRAMEWORKNAME.name) == "FRAMEWORKNAME"
             }
         }
-
     }
-
 }

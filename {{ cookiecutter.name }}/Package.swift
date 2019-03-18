@@ -14,8 +14,9 @@ let package = Package(
     products: [
         .library(
             name: "{{ cookiecutter.name }}",
-            targets: ["{{ cookiecutter.name }}"]),
-        ],
+            targets: ["{{ cookiecutter.name }}"]
+        ),
+    ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
@@ -24,11 +25,13 @@ let package = Package(
         .target(
             name: "{{ cookiecutter.name }}",
             dependencies: [],
-            path: "Sources"),
+            path: "Sources"
+        ),
         .testTarget(
             name: "{{ cookiecutter.name }}Tests",
             dependencies: ["{{ cookiecutter.name }}"],
-            path: "Tests")
+            path: "Tests"
+        ),
     ],
     swiftLanguageVersions: [.v4, .v4_2]
 )

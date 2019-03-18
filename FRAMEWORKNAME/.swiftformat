@@ -1,0 +1,13 @@
+--self init-only
+--trimwhitespace always
+--comments ignore
+--commas always
+--wrapelements beforefirst
+--elseposition sameline
+--patternlet inline
+--indent 4
+--ifdef noindent
+--wrapcollections beforefirst
+--wraparguments beforefirst
+--stripunusedargs closure-only
+--disable andOperator,unusedArguments,sortedImports

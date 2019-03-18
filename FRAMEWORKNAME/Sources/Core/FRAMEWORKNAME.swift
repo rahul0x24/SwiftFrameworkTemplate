@@ -9,7 +9,5 @@
 import Foundation
 
 class FRAMEWORKNAME {
-    
     static let name = "FRAMEWORKNAME"
-    
 }

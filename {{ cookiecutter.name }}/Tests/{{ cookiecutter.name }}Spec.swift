@@ -11,15 +11,11 @@ import Nimble
 @testable import {{ cookiecutter.name }}
 
 class {{ cookiecutter.name }}Spec: QuickSpec {
-
     override func spec() {
-
         describe("{{ cookiecutter.name }}Spec") {
             it("works") {
                 expect({{ cookiecutter.name }}.name) == "{{ cookiecutter.name }}"
             }
         }
-
     }
-
 }
