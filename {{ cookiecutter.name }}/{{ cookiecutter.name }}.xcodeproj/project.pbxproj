@@ -99,6 +99,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		353A78F6224F762800055190 /* {{ cookiecutter.name }}.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = {{ cookiecutter.name }}.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3549BB171DA3890B00C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = {{ cookiecutter.name }}.h; sourceTree = "<group>"; };
 		3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +187,7 @@
 		3549BAFB1DA387DB00C63030 = {
 			isa = PBXGroup;
 			children = (
+				353A78F6224F762800055190 /* {{ cookiecutter.name }}.playground */,
 				3549BB161DA3890B00C63030 /* Sources */,
 				3549BB191DA3890B00C63030 /* Tests */,
 				3549BB061DA387DB00C63030 /* Products */,
@@ -444,7 +446,7 @@
 				TargetAttributes = {
 					3549BB201DA389CD00C63030 = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					3549BB2D1DA389DB00C63030 = {
@@ -464,7 +466,7 @@
 					};
 					3549BB601DA38ADB00C63030 = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					3549BB6F1DA38AEF00C63030 = {
@@ -481,10 +483,11 @@
 			};
 			buildConfigurationList = 3549BAFF1DA387DB00C63030 /* Build configuration list for PBXProject "{{ cookiecutter.name }}" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 3549BAFB1DA387DB00C63030;
 			productRefGroup = 3549BB061DA387DB00C63030 /* Products */;
@@ -688,7 +691,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -744,7 +747,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -770,7 +773,7 @@
 				PRODUCT_NAME = {{ cookiecutter.name }};
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -790,7 +793,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
 				PRODUCT_NAME = {{ cookiecutter.name }};
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -939,7 +942,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -956,7 +959,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

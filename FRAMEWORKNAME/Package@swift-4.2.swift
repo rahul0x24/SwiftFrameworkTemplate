@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:4.2
 //
 //  FRAMEWORKNAME.swift
 //  FRAMEWORKNAME
@@ -11,12 +11,6 @@ import PackageDescription
 
 let package = Package(
     name: "FRAMEWORKNAME",
-    platforms: [
-        .iOS(.v8),
-        .macOS(.v10_10),
-        .tvOS(.v9),
-        .watchOS(.v2),
-    ],
     products: [
         .library(
             name: "FRAMEWORKNAME",
@@ -39,5 +33,5 @@ let package = Package(
             path: "Tests"
         ),
     ],
-    swiftLanguageVersions: [.v5]
+    swiftLanguageVersions: [.v4, .v4_2]
 )

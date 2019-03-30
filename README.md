@@ -23,6 +23,7 @@ A template for new Swift Framework.
 - Swift 4.2
 - Dependency Managers - CocoaPods / Carthage / Swift Package Manager
 - Readme
+- SwiftFormat
 - Dangerfile / Gemfile / Jazzy
 - Github Templates (CODE_OF_CONDUCT, CONTRIBUTING, ISSUE_TEMPLATE, PULL_REQUEST_TEMPLATE)
 - TravisCI
