@@ -1,4 +1,3 @@
---self init-only
 --trimwhitespace always
 --comments ignore
 --commas always
@@ -10,4 +9,5 @@
 --wrapcollections beforefirst
 --wraparguments beforefirst
 --stripunusedargs closure-only
---disable andOperator,unusedArguments,sortedImports
+--disable andOperator,unusedArguments,sortedImports,redundantSelf
+--exclude Pods,Carthage,Generated
