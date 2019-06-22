@@ -5,9 +5,6 @@
       location = "group:FRAMEWORKNAME.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:scripts">
-   </FileRef>
-   <FileRef
       location = "group:CODE_OF_CONDUCT.md">
    </FileRef>
    <FileRef
